@@ -1,0 +1,2827 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>段亮个人博客-分享web前端和SEO技术的个人博客网站</title>
+    <meta name="keywords" content="个人博客">
+    <meta name="description " content="段亮个人博客，是记录博主学习和成长的一个自媒体博客，关注于web前端技术和SEO技术的学习研究。让你快速学习如何搭建自己个人网站！">
+    <meta name="apple-mobile-web-app-capable " content="yes ">
+    <meta name="apple-touch-fullscreen " content="yes ">
+    <meta name="format-detection " content="telephone=no,email=no ">
+    <meta name="apple-mobile-web-app-status-bar-style " content="black ">
+    <link rel="shortcut icon" href="//cdn.duanliang920.com/assets/web/favicon.ico">
+    <link rel="stylesheet" href="static/css/app.eca95fb4.css">
+    <style data-vue-ssr-id="630860c1:0 3b018a77:0 33285424:0 44568335:0 6253174c:0 6253174c:1 2dd8832a:0">.content-wrap-box[data-v-53617b3a] {
+            width: 885pt;
+            margin: 0 auto 20px;
+            padding-top: 90px
+        }
+
+        .header-wrap-box[data-v-67eb4459] {
+            position: fixed;
+            top: 0;
+            z-index: 901;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .17)
+        }
+
+        .header-wrap[data-v-67eb4459] {
+            width: 75pc;
+            margin: 0 auto
+        }
+
+        .header-wrap .logo[data-v-67eb4459] {
+            cursor: pointer;
+            display: block;
+            width: 90pt;
+            height: 60px;
+            margin: 10px
+        }
+
+        .nav-wrap[data-v-67eb4459] {
+            position: relative;
+            margin-top: 10px
+        }
+
+        .nav-wrap .nav-item[data-v-67eb4459] {
+            display: block;
+            width: 90pt;
+            margin-right: 3px;
+            height: 60px;
+            font-size: 1pc;
+            color: #333;
+            line-height: 60px;
+            float: left;
+            text-align: center;
+            cursor: pointer
+        }
+
+        .nav-wrap .nav-item[data-v-67eb4459]:first-child {
+            width: 75pt
+        }
+
+        .nav-wrap .nav-item[data-v-67eb4459]:hover {
+            color: #ef4868
+        }
+
+        .nav-wrap .nav-item[data-v-67eb4459]:last-child {
+            margin-right: 0
+        }
+
+        .nav-wrap .active[data-v-67eb4459] {
+            color: #ef4868
+        }
+
+        .nav-wrap .hot[data-v-67eb4459] {
+            position: absolute;
+            top: 2px;
+            left: 205px
+        }
+
+        .login-box[data-v-67eb4459] {
+            height: 5pc;
+            line-height: 5pc;
+            text-align: center;
+            font-size: 1pc;
+            margin-right: 20px
+        }
+
+        .login-box .item-text[data-v-67eb4459] {
+            cursor: pointer
+        }
+
+        .login-box .item-text[data-v-67eb4459]:hover {
+            color: #f15694
+        }
+
+        .login-box .user-img-box[data-v-67eb4459] {
+            position: relative;
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin: 20px 0 0
+        }
+
+        .login-box .user-img-box .user-img[data-v-67eb4459] {
+            position: relative;
+            display: block;
+            width: 100%;
+            border-radius: 50%;
+            cursor: pointer
+        }
+
+        .login-box .user-img-box .num[data-v-67eb4459] {
+            position: absolute;
+            right: -15px;
+            top: -5px;
+            min-width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 9pt;
+            padding: 4px;
+            color: #fff;
+            border-radius: 50%;
+            background: #f34
+        }
+
+        .common-list[data-v-07882ec7] {
+            width: 290px;
+            overflow: hidden;
+            float: left
+        }
+
+        .common-list .list-item[data-v-07882ec7] {
+            height: 35px;
+            line-height: 35px;
+            width: 3in;
+            list-style: none;
+            border-bottom: 1px solid #cecece
+        }
+
+        .common-list .list-item[data-v-07882ec7]:last-child {
+            border-bottom: none
+        }
+
+        .common-list .list-item .link[data-v-07882ec7] {
+            width: 255px;
+            display: block;
+            color: #545151;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis
+        }
+
+        .common-list .list-item .link[data-v-07882ec7]:hover {
+            color: #181616
+        }
+
+        .common-list .num[data-v-07882ec7] {
+            display: block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 4px;
+            margin: 8px 5px 0;
+            color: #fff;
+            background-color: #979598
+        }
+
+        .common-list .num-1[data-v-07882ec7] {
+            background-color: #ff858e
+        }
+
+        .common-list .num-2[data-v-07882ec7] {
+            background-color: #77d549
+        }
+
+        .common-list .num-3[data-v-07882ec7] {
+            background-color: #62c1ff
+        }
+
+        .common-list-content[data-v-07882ec7] {
+            width: 100%;
+            background: #fff
+        }
+
+        .common-list-content .img-list[data-v-07882ec7] {
+            position: relative;
+            width: 200px;
+            overflow: hidden
+        }
+
+        .common-list-content .img-list .link[data-v-07882ec7] {
+            position: relative;
+            display: block;
+            height: 86px;
+            overflow: hidden;
+            margin-bottom: 10px
+        }
+
+        .common-list-content .img-list .link[data-v-07882ec7]:last-child {
+            margin-bottom: 0
+        }
+
+        .common-list-content .img-list .link .title[data-v-07882ec7] {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            background: rgba(0, 0, 0, .2);
+            z-index: 2;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center
+        }
+
+        .common-list-content .img-list .link .title .text[data-v-07882ec7] {
+            min-width: 10pc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0)
+        }
+
+        .common-list-content .img-list .link:hover .article-image[data-v-07882ec7] {
+            opacity: 1;
+            transform: scale(1.04)
+        }
+
+        .common-list-content .img-list .article-image[data-v-07882ec7] {
+            width: 100%;
+            display: block;
+            border-radius: 4px;
+            opacity: .8;
+            transition: all .5s
+        }
+
+        .common-list-content .article-list[data-v-07882ec7] {
+            width: 619px;
+            overflow: hidden;
+            margin-left: 20px
+        }
+
+        .common-list-content .article-list .link[data-v-07882ec7] {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0;
+            padding: 0 15px
+        }
+
+        .common-list-content .article-list .link[data-v-07882ec7]:hover {
+            color: #333
+        }
+
+        .common-list-content .article-list .num[data-v-07882ec7] {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background: #9a9a9a;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 2px
+        }
+
+        .common-list-content .article-list .title[data-v-07882ec7] {
+            display: inline-block;
+            font-size: 14px;
+            color: #333;
+            margin-left: 5px;
+            font-weight: 400
+        }
+
+        .common-list-content .article-list .info[data-v-07882ec7] {
+            width: 580px;
+            font-size: 13px;
+            height: 38px;
+            margin-top: 5px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden
+        }
+
+        .common-list-content .article-list .active[data-v-07882ec7] {
+            background: #f7f7f7;
+            padding: 10px 15px 5px
+        }
+
+        .common-list-content .article-list .active .title[data-v-07882ec7] {
+            color: #111;
+            font-weight: 500
+        }
+
+        .common-list-content .article-list .active .num[data-v-07882ec7] {
+            background: #333
+        }
+
+        .title-h2[data-v-07882ec7] {
+            font-size: 1pc;
+            font-weight: 400;
+            color: #333;
+            padding: 2px 0 2px 10px;
+            border-left: 2px solid #3472ef;
+            margin: 20px 0 20px 2px;
+            height: 25px;
+            line-height: 25px
+        }
+
+        .banner-wrap[data-v-07882ec7] {
+            width: 885pt;
+            margin: 0 auto;
+            margin-top: 5px;
+            border-radius: 5px
+        }
+
+        .banner-wrap .banner-left[data-v-07882ec7] {
+            width: 47pc;
+            margin: 5px 0 0 3px
+        }
+
+        .banner-wrap .banner-left .content[data-v-07882ec7] {
+            position: relative;
+            float: left;
+            width: 630px;
+            height: 20pc;
+            overflow: hidden
+        }
+
+        .banner-wrap .banner-left .content ul[data-v-07882ec7] {
+            position: relative;
+            width: 630px
+        }
+
+        .banner-wrap .banner-left .content .banner-item[data-v-07882ec7] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2
+        }
+
+        .banner-wrap .banner-left .content .banner-item[data-v-07882ec7]:first-child {
+            z-index: 44
+        }
+
+        .banner-wrap .banner-left .content .banner-item img[data-v-07882ec7] {
+            width: 630px;
+            height: 330px;
+            opacity: .7
+        }
+
+        .banner-wrap .banner-left .content .active[data-v-07882ec7] {
+            z-index: 66
+        }
+
+        .banner-wrap .banner-left .content .active img[data-v-07882ec7] {
+            opacity: 1;
+            transition: all .5s
+        }
+
+        .banner-wrap .banner-left .switch-btn-box[data-v-07882ec7] {
+            position: relative;
+            width: 110px;
+            float: right;
+            padding-right: 4px;
+            margin: 9pt 0 0 2px;
+            z-index: 1
+        }
+
+        .banner-wrap .banner-left .switch-btn-box ul[data-v-07882ec7] {
+            position: relative;
+            width: 110px;
+            overflow: hidden
+        }
+
+        .banner-wrap .banner-left .switch-btn-box li[data-v-07882ec7] {
+            width: 110px;
+            height: 50px;
+            padding: 5px;
+            overflow: hidden
+        }
+
+        .banner-wrap .banner-left .switch-btn-box li img[data-v-07882ec7] {
+            width: 102px;
+            height: 50px;
+            display: block
+        }
+
+        .banner-wrap .banner-left .switch-btn-box .hover-bg[data-v-07882ec7] {
+            position: absolute;
+            top: 0;
+            left: -10px;
+            width: 93pt;
+            height: 4pc;
+            z-index: 600;
+            background: url(static/images/hover.97d2f80.png) no-repeat
+        }
+
+        .banner-wrap .banner-right[data-v-07882ec7] {
+            width: 380px;
+            height: 17pc;
+            position: relative;
+            border-radius: 3px;
+            margin: 20px 0 0 2px
+        }
+
+        .banner-wrap .banner-right .bg[data-v-07882ec7] {
+            display: block;
+            width: 380px;
+            height: 17pc
+        }
+
+        .banner-wrap .banner-right .banner-right-text[data-v-07882ec7] {
+            width: 230px;
+            height: 90pt;
+            position: absolute;
+            right: 20px;
+            bottom: 50px;
+            color: #f7b0b0;
+            line-height: 25px;
+            font-size: 1pc;
+            font-family: \\5B8B\4F53;
+            font-weight: 500
+        }
+
+        .banner-wrap .banner-right .banner-right-text[data-v-07882ec7]:nth-child(1) {
+            animation: animations-data-v-07882ec7 1.5s ease-out .8s backwards
+        }
+
+        @keyframes animations-data-v-07882ec7 {
+            0% {
+                transform: translate(-20px);
+                opacity: 0
+            }
+            50% {
+                transform: translate(0);
+                opacity: .5
+            }
+            to {
+                transform: translate(10px);
+                opacity: 1
+            }
+        }
+
+        .show-module-wrap[data-v-07882ec7] {
+            width: 885pt;
+            margin: 20px auto 0
+        }
+
+        .show-module-wrap .video-list-content-box[data-v-07882ec7] {
+            margin-top: -10px
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list[data-v-07882ec7] {
+            padding-left: 20px
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list .video-nav-item[data-v-07882ec7] {
+            position: relative;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 50px;
+            cursor: pointer;
+            font-size: 15px
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list .video-nav-item[data-v-07882ec7]:after {
+            content: "";
+            background: linear-gradient(to right, #e65353 0, #e88383 100%);
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: -1px;
+            left: 40%;
+            opacity: 0;
+            transition: all .4s ease
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list .video-nav-item[data-v-07882ec7]:hover:after {
+            opacity: 1;
+            width: 100%;
+            margin: auto;
+            display: block;
+            left: 0
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list .active[data-v-07882ec7] {
+            color: #e65353
+        }
+
+        .show-module-wrap .video-list-content-box .video-nav-list .active[data-v-07882ec7]:after {
+            content: "";
+            background: linear-gradient(to right, #e65353 0, #e88383 100%);
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: -1px;
+            opacity: 1;
+            width: 100%;
+            left: 0;
+            transition: all .4s ease
+        }
+
+        .show-module-wrap .video-list-content-box .video-list-content[data-v-07882ec7] {
+            padding-top: 20px;
+            margin-left: -8px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item[data-v-07882ec7] {
+            position: relative;
+            width: 270px;
+            margin: 0 0 22px 26px;
+            box-shadow: 0 2px 5px 0 #d9dfe9;
+            transition: all .2s ease-in;
+            background: #fff;
+            border-radius: 4px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item[data-v-07882ec7]:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 5px 0 #d9dfe9
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .video-link[data-v-07882ec7] {
+            display: block;
+            width: 100%
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .video-link[data-v-07882ec7]:hover {
+            color: #333
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .img-box[data-v-07882ec7] {
+            width: 270px;
+            height: 10pc;
+            overflow: hidden;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .video-image[data-v-07882ec7] {
+            display: block;
+            width: 270px;
+            height: 10pc
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .title[data-v-07882ec7] {
+            line-height: 23px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            font-size: 15px;
+            font-weight: 400;
+            height: 44px;
+            color: #000;
+            text-align: left;
+            transition: .3s;
+            padding: 5px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .info-text[data-v-07882ec7] {
+            font-size: 9pt;
+            padding: 0 5px 10px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .num[data-v-07882ec7] {
+            padding-right: 3px;
+            font-size: 13px
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .price[data-v-07882ec7] {
+            color: #f57575
+        }
+
+        .show-module-wrap .video-list-content-box .video-item .free[data-v-07882ec7], .show-module-wrap .video-list-content-box .video-item .num[data-v-07882ec7] {
+            color: #19a25d
+        }
+
+        .hot-module-box[data-v-07882ec7] {
+            margin: 20px 0
+        }
+
+        .column-list-box[data-v-07882ec7] {
+            width: 840px;
+            padding: 10px;
+            height: 235px;
+            background-color: #fff;
+            position: relative
+        }
+
+        .column-list-box .active-line[data-v-07882ec7] {
+            position: absolute;
+            width: 90pt;
+            height: 2px;
+            background: #e65353;
+            top: 49px;
+            left: 10px;
+            z-index: 3
+        }
+
+        .column-list-box .column-list-tab[data-v-07882ec7] {
+            border-bottom: 1px solid #f0f0f0
+        }
+
+        .column-list-box .column-list-tab-item[data-v-07882ec7] {
+            position: relative;
+            width: 90pt;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 15px;
+            margin-right: 4px;
+            color: #333
+        }
+
+        .column-list-box .column-list-tab-item[data-v-07882ec7]:after {
+            content: "";
+            background: linear-gradient(to right, #e65353 0, #e88383 100%);
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: -1px;
+            left: 40%;
+            opacity: 0;
+            transition: all .4s ease
+        }
+
+        .column-list-box .column-list-tab-item[data-v-07882ec7]:hover:after {
+            opacity: 1;
+            width: 100%;
+            margin: auto;
+            display: block;
+            left: 0
+        }
+
+        .column-list-box .column-list-tab-item.active[data-v-07882ec7] {
+            color: #e65353;
+            font-weight: 500
+        }
+
+        .column-list-box .column-list-content-box[data-v-07882ec7] {
+            position: relative;
+            overflow: hidden;
+            margin-top: 8px
+        }
+
+        .column-list-box .column-list-content-box .list-box[data-v-07882ec7] {
+            width: 9999px
+        }
+
+        .column-list-box .common-list-content[data-v-07882ec7] {
+            width: 840px
+        }
+
+        .hot-module-side[data-v-07882ec7] {
+            width: 290px
+        }
+
+        .search-wrap[data-v-07882ec7] {
+            background-color: #fff;
+            margin-bottom: 20px;
+            position: relative;
+            padding: 20px 0
+        }
+
+        .search-wrap .search-value[data-v-07882ec7] {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #556566;
+            padding: 0 35px 0 20px
+        }
+
+        .search-wrap .search-btn[data-v-07882ec7] {
+            position: absolute;
+            top: 28px;
+            right: 30px;
+            cursor: pointer;
+            z-index: 33
+        }
+
+        .side-nav[data-v-07882ec7] {
+            padding: 20px 0 13px;
+            background-color: #fff
+        }
+
+        .side-nav ul[data-v-07882ec7] {
+            padding-left: 10px
+        }
+
+        .side-nav ul li[data-v-07882ec7] {
+            float: left;
+            width: 110px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 10px 15px;
+            text-align: center;
+            border-radius: 5px
+        }
+
+        .side-nav ul li a[data-v-07882ec7] {
+            font-size: 1pc;
+            font-weight: 500;
+            color: #fff;
+            line-height: 50px;
+            display: block;
+            transition: all 1s
+        }
+
+        .side-nav ul li a[data-v-07882ec7]:hover {
+            background: hsla(0, 0%, 100%, .2);
+            transform: rotate(360deg)
+        }
+
+        .side-nav ul li.nav-1[data-v-07882ec7] {
+            background-color: #666
+        }
+
+        .side-nav ul li.nav-2[data-v-07882ec7] {
+            background-color: #0cc
+        }
+
+        .side-nav ul li.nav-3[data-v-07882ec7] {
+            background-color: #c96
+        }
+
+        .side-nav ul li.nav-4[data-v-07882ec7] {
+            background-color: #63c
+        }
+
+        .main-content[data-v-07882ec7] {
+            width: 885pt;
+            margin: 0 auto
+        }
+
+        .main-content .main-content-box[data-v-07882ec7] {
+            width: 860px
+        }
+
+        .comments-list[data-v-07882ec7] {
+            margin-top: 15px;
+            padding-bottom: 10px
+        }
+
+        .comments-list .no-data[data-v-07882ec7] {
+            padding: 20px 0;
+            text-align: center;
+            color: #666
+        }
+
+        .comments-list .no-data .loading[data-v-07882ec7] {
+            width: 20px
+        }
+
+        .comments-list .comments-item[data-v-07882ec7] {
+            margin-bottom: 5px
+        }
+
+        .comments-list .comments-item .comments-text-wrap[data-v-07882ec7] {
+            border-top: 1px solid #ccc;
+            padding-bottom: 3px;
+            padding-top: 10px
+        }
+
+        .comments-list .comments-item .user-img[data-v-07882ec7] {
+            margin-right: 10px
+        }
+
+        .comments-list .comments-item .user-img img[data-v-07882ec7] {
+            border-radius: 4px
+        }
+
+        .comments-list .comments-item .comments-text-box[data-v-07882ec7] {
+            display: inline-block;
+            width: 75%
+        }
+
+        .comments-list .comments-item .comments-author[data-v-07882ec7] {
+            font-size: 14px;
+            color: #d32;
+            font-weight: 600
+        }
+
+        .comments-list .comments-item .link[data-v-07882ec7] {
+            cursor: pointer
+        }
+
+        .comments-list .comments-item .link[data-v-07882ec7]:hover {
+            color: #886969;
+            text-decoration: underline
+        }
+
+        .comments-list .comments-item .text[data-v-07882ec7] {
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical
+        }
+
+        .footer-article-module[data-v-07882ec7] {
+            width: 860px
+        }
+
+        .footer-article-module h2.title-h2[data-v-07882ec7] {
+            margin: 10px 0 15px
+        }
+
+        .footer-article-module .article-list-wrap[data-v-07882ec7] {
+            position: relative;
+            padding: 0 9pt 10px
+        }
+
+        .footer-article-module .article-list-wrap .common-list[data-v-07882ec7] {
+            width: 390px
+        }
+
+        .footer-article-module .article-list-wrap .list-item[data-v-07882ec7] {
+            width: 380px
+        }
+
+        .footer-article-module .article-list-wrap .list-item .num[data-v-07882ec7] {
+            margin-left: 0
+        }
+
+        .footer-article-module .article-list-wrap .list-item .link[data-v-07882ec7] {
+            width: 270px
+        }
+
+        .footer-article-module .article-list-wrap .list-item .num-1[data-v-07882ec7] {
+            background-color: #ef8261
+        }
+
+        .footer-article-module .article-list-wrap .list-item .num-2[data-v-07882ec7] {
+            background-color: #3299cd
+        }
+
+        .footer-article-module .article-list-wrap .list-item .num-3[data-v-07882ec7] {
+            background-color: #8e93ce
+        }
+
+        .footer-article-module .seo-module[data-v-07882ec7], .footer-article-module .web-module[data-v-07882ec7] {
+            background-color: #fff;
+            border-radius: 2px
+        }
+
+        .main-content-side[data-v-07882ec7] {
+            width: 290px
+        }
+
+        .main-content-side .title-h2[data-v-07882ec7] {
+            position: relative;
+            left: -2px
+        }
+
+        .main-content-side .menu-tags[data-v-07882ec7] {
+            height: 260px;
+            position: relative;
+            background-color: #fff;
+            text-align: center
+        }
+
+        .main-content-side .menu-tags a[data-v-07882ec7] {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #333;
+            margin: 0 10px 15px 0;
+            line-height: 22px;
+            text-align: center;
+            font-size: 14px;
+            padding: 4px 8px;
+            display: inline-block
+        }
+
+        .main-content-side .menu-tags a[data-v-07882ec7]:hover {
+            background: #3472ef
+        }
+
+        .main-content-side .concern-blog[data-v-07882ec7] {
+            padding-top: 20px;
+            margin-top: 20px;
+            background-color: #fff
+        }
+
+        .main-content-side .concern-blog .list[data-v-07882ec7] {
+            padding: 2px 20px 10px 30px
+        }
+
+        .main-content-side .concern-blog .list .weibo[data-v-07882ec7] {
+            display: block;
+            width: 140px;
+            margin: 5px 0 0 10px;
+            overflow: hidden
+        }
+
+        .main-content-side .concern-blog .list li[data-v-07882ec7] {
+            line-height: 30px;
+            color: #545454;
+            margin-bottom: 10px
+        }
+
+        .main-content-side .concern-blog .list li .title[data-v-07882ec7] {
+            width: 90px
+        }
+
+        .main-content-side .concern-blog .list li .wechat[data-v-07882ec7] {
+            display: inline-block;
+            width: 93px;
+            height: 93px;
+            position: relative;
+            left: 8px
+        }
+
+        .main-content-side .concern-blog .list li a[data-v-07882ec7] {
+            display: block;
+            width: 87pt;
+            height: 25px;
+            margin-left: 10px;
+            margin-top: -2px;
+            position: relative
+        }
+
+        .main-content-side .concern-blog .list li a.bg-ico[data-v-07882ec7] {
+            background: url(static/images/qq-bg.1215f1b.png) no-repeat
+        }
+
+        .main-content-side .concern-blog .list li a.ico-1[data-v-07882ec7] {
+            background-position: 0 0
+        }
+
+        .main-content-side .concern-blog .list li a.ico-2[data-v-07882ec7] {
+            width: 91px;
+            top: 5px;
+            background-position: -87pt 0
+        }
+
+        .main-content-side .concern-blog .list li a.ico-3[data-v-07882ec7] {
+            width: 95px;
+            top: 3px;
+            background-position: -13pc 0
+        }
+
+        .main-content-side .concern-blog .list li a.ico-4[data-v-07882ec7] {
+            top: 4px
+        }
+
+        .main-content-side .hot-recommend-wrap[data-v-07882ec7] {
+            margin-top: 20px;
+            background-color: #fff
+        }
+
+        .main-content-side .hot-recommend-wrap .title-h2[data-v-07882ec7] {
+            margin-bottom: 8px
+        }
+
+        .main-content-side .hot-recommend-wrap .hot-recommend[data-v-07882ec7] {
+            position: relative;
+            overflow: hidden;
+            width: 290px
+        }
+
+        .main-content-side .hot-recommend-wrap .hot-recommend .hot-recommend-nav[data-v-07882ec7] {
+            border-bottom: 1px solid #d6d6d6
+        }
+
+        .main-content-side .hot-recommend-wrap .hot-recommend .hot-recommend-nav li[data-v-07882ec7] {
+            float: left;
+            width: 33.3%;
+            height: 35px;
+            line-height: 35px;
+            font-size: 15px;
+            text-align: center;
+            color: #333;
+            cursor: pointer;
+            transition: all 1s
+        }
+
+        .main-content-side .hot-recommend-wrap .hot-recommend .hot-recommend-nav li.active[data-v-07882ec7] {
+            color: #3472ef
+        }
+
+        .main-content-side .hot-recommend-wrap .hot-recommend .hot-recommend-content[data-v-07882ec7] {
+            position: relative
+        }
+
+        .main-content-side .news-guestbook[data-v-07882ec7] {
+            margin-top: 20px;
+            background-color: #fff
+        }
+
+        .main-content-side .news-guestbook .guestbook-content[data-v-07882ec7] {
+            color: #696971;
+            padding: 0 10px
+        }
+
+        .main-content-side .along-the-way[data-v-07882ec7] {
+            margin-top: 20px;
+            background-color: #fff;
+            padding-bottom: 15px
+        }
+
+        .main-content-side .along-the-way .list[data-v-07882ec7] {
+            padding: 0 10px
+        }
+
+        .main-content-side .along-the-way .list li[data-v-07882ec7] {
+            margin-bottom: 10px
+        }
+
+        .main-content-side .along-the-way .list li .date-time[data-v-07882ec7] {
+            color: #565353;
+            font-size: 15px;
+            padding-bottom: 2px
+        }
+
+        .main-content-side .along-the-way .list li .content-text[data-v-07882ec7] {
+            color: #6e7377
+        }
+
+        .main-content-side .link-wrap[data-v-07882ec7] {
+            margin-top: 20px;
+            background-color: #fff
+        }
+
+        .main-content-side .link-wrap .list li[data-v-07882ec7] {
+            float: left;
+            width: 50%;
+            text-align: center;
+            margin-bottom: 10px
+        }
+
+        .main-content-side .link-wrap .list li a[data-v-07882ec7] {
+            color: #888585
+        }
+
+        .main-content-side .link-wrap .list li a[data-v-07882ec7]:hover {
+            color: #565353
+        }
+
+        .article-list[data-v-235bc085] {
+            width: 860px
+        }
+
+        .article-list .article-item[data-v-235bc085] {
+            padding: 25px 0;
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #fff;
+            margin-bottom: 20px
+        }
+
+        .article-list .article-item[data-v-235bc085]:hover {
+            border-radius: 4px;
+            box-shadow: 1px 3px 9px #ccc;
+            transition: .3s
+        }
+
+        .article-list .article-item .progressive[data-v-235bc085] {
+            width: 205px;
+            height: 137px;
+            background: #f0f0f0;
+            cursor: pointer !important
+        }
+
+        .article-list .article-item .news-img-box[data-v-235bc085] {
+            position: relative;
+            padding-left: 10px;
+            width: 205px;
+            height: 137px
+        }
+
+        .article-list .article-item .news-img-box img[data-v-235bc085] {
+            display: inline-block;
+            width: 205px;
+            height: 137px;
+            background: #f0f0f0;
+            cursor: pointer
+        }
+
+        .article-list .article-item .news-img-box .common-label[data-v-235bc085] {
+            position: absolute;
+            width: 30px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: #fff;
+            background-color: #db4659;
+            top: 5px;
+            left: -10px;
+            z-index: 145
+        }
+
+        .article-list .article-item .news-img-box .common-label .triangle[data-v-235bc085] {
+            position: absolute;
+            top: 24px;
+            left: -10px;
+            width: 0;
+            height: 0;
+            z-index: 33;
+            border-left: 10px solid transparent;
+            border-right: 10px solid #df0d3a;
+            border-bottom: 7px solid transparent
+        }
+
+        .article-list .article-item .news-img-box .new[data-v-235bc085] {
+            color: #fff;
+            background-color: #3472ef
+        }
+
+        .article-list .article-item .news-img-box .new .triangle[data-v-235bc085] {
+            border-right: 10px solid #0457fd !important
+        }
+
+        .article-list .article-item .author-img[data-v-235bc085] {
+            display: inline-block;
+            width: 33px;
+            height: 33px
+        }
+
+        .article-list .article-item .news-content[data-v-235bc085] {
+            width: 615px
+        }
+
+        .article-list .article-item .news-content a[data-v-235bc085] {
+            color: #3d3d3d
+        }
+
+        .article-list .article-item .news-content h3.title-h3[data-v-235bc085] {
+            padding: 10px 0;
+            color: #3d3d3d;
+            font-size: 1pc
+        }
+
+        .article-list .article-item .news-content .author-info[data-v-235bc085] {
+            height: 33px;
+            line-height: 33px;
+            color: #919898;
+            font-size: 14px
+        }
+
+        .article-list .article-item .news-content .author-info a[data-v-235bc085] {
+            color: #919898
+        }
+
+        .article-list .article-item .news-content .author-info a[data-v-235bc085]:hover {
+            color: #15181b
+        }
+
+        .article-list .article-item .news-content .author-info .author[data-v-235bc085] {
+            width: 90px;
+            height: 33px;
+            line-height: 33px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            position: relative
+        }
+
+        .article-list .article-item .news-content .author-info .author span[data-v-235bc085] {
+            position: absolute;
+            left: 45px
+        }
+
+        .article-list .article-item .news-content .author-info .date-time[data-v-235bc085] {
+            display: block;
+            width: 218px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            padding-right: 5px
+        }
+
+        .article-list .article-item .news-content .author-info .classify[data-v-235bc085] {
+            display: block;
+            width: 180px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis
+        }
+
+        .article-list .article-item .news-content .news-info[data-v-235bc085] {
+            color: #526163;
+            height: 56px;
+            overflow: hidden;
+            font-size: 14px;
+            padding: 8px 9pt 3px 5px;
+            cursor: pointer
+        }
+
+        .page-box {
+            display: inline-block;
+            font-size: 0
+        }
+
+        .page-box .total-page {
+            margin-right: 10px;
+            border: none;
+            color: #48576a;
+            display: inline-block;
+            height: 28px;
+            line-height: 28px;
+            font-size: 14px
+        }
+
+        .page-box .total-page span {
+            padding: 0 4px
+        }
+
+        .page-box .pager {
+            display: inline-block;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            list-style: none;
+            font-size: 0;
+            padding: 0
+        }
+
+        .pager li, .pager li.btn-quicknext:hover, .pager li.btn-quickprev:hover {
+            cursor: pointer
+        }
+
+        .pager, .pager li {
+            vertical-align: top;
+            display: inline-block
+        }
+
+        .pager li {
+            padding: 0 4px;
+            border-right: 0;
+            background: #fff;
+            font-size: 13px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 3px;
+            box-sizing: border-box;
+            text-align: center;
+            color: #333;
+            border-radius: 4px;
+            border: 1px solid #dadada
+        }
+
+        .pager li.btn-quicknext, .pager li.btn-quickprev {
+            line-height: 2pc;
+            color: #999;
+            font-size: 13px
+        }
+
+        .pager li.active + li {
+            padding-left: 5px
+        }
+
+        .pager li:hover {
+            color: #2577e3
+        }
+
+        .pager li.active {
+            cursor: default;
+            color: #fff;
+            background: #3472ef;
+            border-radius: 4px;
+            border: 1px solid #3472ef
+        }
+
+        .page-box .button {
+            cursor: pointer;
+            border: 1px solid #dadada;
+            padding: 0 6px;
+            color: #333;
+            display: inline-block;
+            font-size: 14px;
+            min-width: 30px;
+            height: 30px;
+            line-height: 30px;
+            vertical-align: top;
+            border-radius: 2px;
+            background-color: #fff;
+            box-sizing: border-box;
+            outline: 0
+        }
+
+        .page-box button.disabled {
+            color: #999;
+            border: 1px solid #dadada;
+            background-color: #f4f4f4;
+            cursor: not-allowed
+        }
+
+        .page-box .button .icon {
+            display: block;
+            font-size: 9pt;
+            speak: none;
+            font-weight: 400;
+            line-height: 1;
+            vertical-align: baseline;
+            display: inline-block;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        .page-box .change-page-box {
+            margin: 1px 10px 0 0;
+            font-size: 14px;
+            color: #48576a;
+            margin-left: 20px;
+            min-width: 28px;
+            height: 28px;
+            line-height: 28px;
+            vertical-align: top;
+            box-sizing: border-box
+        }
+
+        .change-page-box .input-inner {
+            display: inline-block;
+            border: 1px solid #d1dbe5;
+            border-radius: 2px;
+            height: 28px;
+            line-height: 28px;
+            padding: 2px 0;
+            width: 30px;
+            text-align: center;
+            margin: 0 6px;
+            box-sizing: border-box;
+            transition: border .3s
+        }
+
+        .change-page-box .input-inner:focus {
+            border-color: #2577e3;
+            outline: 0
+        }
+
+        .footer-wrap-box[data-v-23045106] {
+            position: relative;
+            text-align: center
+        }
+
+        .footer-wrap[data-v-23045106] {
+            width: 100%;
+            min-width: 75pc;
+            padding: 10px 0;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 5px;
+            color: #504d50;
+            background: #fff
+        }
+
+        .footer-wrap span[data-v-23045106] {
+            padding-right: 5px
+        }
+
+        .footer-wrap strong[data-v-23045106] {
+            font-weight: 500
+        }
+
+        .fixed-side-menu[data-v-23045106] {
+            position: fixed;
+            right: 50px;
+            bottom: 75pt;
+            width: 50px
+        }
+
+        .fixed-side-menu .feedback[data-v-23045106] {
+            line-height: 50px;
+            text-align: center
+        }
+
+        .fixed-side-menu .feedback .dl-icon[data-v-23045106] {
+            color: #666;
+            font-size: 20px
+        }
+
+        .fixed-side-menu .feedback[data-v-23045106]:hover {
+            cursor: pointer
+        }
+
+        .fixed-side-menu .feedback:hover .dl-icon[data-v-23045106] {
+            color: #3382f8
+        }
+
+        .fixed-side-menu .list li[data-v-23045106] {
+            width: 3pc;
+            height: 3pc;
+            background-color: #fff;
+            border: 1px solid #ececec;
+            border-bottom: 0
+        }
+
+        .fixed-side-menu .list li#returnTop[data-v-23045106] {
+            cursor: pointer;
+            display: none
+        }
+
+        .fixed-side-menu .list li.wechat-box-wrap[data-v-23045106] {
+            position: relative
+        }
+
+        .fixed-side-menu .list li.wechat-box-wrap .wechat-img[data-v-23045106] {
+            position: absolute;
+            top: -44px;
+            left: -153px;
+            z-index: 888
+        }
+
+        .fixed-side-menu .list li a[data-v-23045106] {
+            display: block;
+            position: relative;
+            top: 15px;
+            left: 14px;
+            width: 20px;
+            height: 20px
+        }
+
+        .fixed-side-menu .list li .dl-icon[data-v-23045106] {
+            font-size: 20px
+        }
+
+        .fixed-side-menu .list li .dl-icon-qq[data-v-23045106] {
+            color: #439dde
+        }
+
+        .fixed-side-menu .list li .dl-icon-top-back[data-v-23045106], .fixed-side-menu .list li .dl-icon-wechat[data-v-23045106] {
+            display: block;
+            position: relative;
+            top: 15px;
+            left: 14px;
+            width: 20px;
+            height: 20px
+        }
+
+        .fixed-side-menu .list li.return-top[data-v-23045106] {
+            cursor: pointer
+        }
+
+        .fixed-side-menu .list li .dl-icon-top-back[data-v-23045106] {
+            color: #eb5651
+        }
+
+        .fixed-side-menu .list li .dl-icon-wechat[data-v-23045106] {
+            color: #35a32a
+        }</style>
+</head>
+<body>
+<div id="app">
+    <div data-server-rendered="true" class="viewport-wrap-box" data-v-53617b3a>
+        <header class="header-wrap-box" data-v-67eb4459 data-v-53617b3a>
+            <div class="header-wrap clearfix" data-v-67eb4459><img src="static/picture/logo.9bde9cc.png" alt="段亮个人博客"
+                                                                   class="logo fl" data-v-67eb4459>
+                <div class="nav-wrap fl" data-v-67eb4459>
+                    <ul class="nav-list clearfix" data-v-67eb4459>
+                        <li class="nav-item active" data-v-67eb4459>首页</li>
+                        <li class="nav-item" data-v-67eb4459>免费视频教程</li>
+                        <li class="nav-item" data-v-67eb4459>网站模板</li>
+                        <li class="nav-item" data-v-67eb4459>学无止境</li>
+                        <li class="nav-item" data-v-67eb4459>个人日记</li>
+                        <li class="nav-item" data-v-67eb4459>关于段亮</li>
+                        <li class="nav-item" data-v-67eb4459>留言板</li>
+                    </ul>
+                    <img src="data:image/gif;base64,R0lGODlhGwATAOZnAP/7+v/39v5IMP/Cuv/z8f/SzP6Kev+uo/+ajP/f2v+mmv/Ox//a1f5NNf++tv/u7P/j3/44Hv4oC/+hlf5ROv+ekf/n4/6Fdf+yqP/Gv/+6sf/r6P4xFf4sEP5IAv5AJ/48Iv5UPv+KAv55Z/42Av+qn/+jl/5+bP49Av5tWf5eAv9qAv4kB/5pVP5lUP51Yv5FLP5ZQv5BAv46Av92Av4jAv/Wl/5ZAv5hS/43Av/Nxv4iAv+mAv93Av/X0f/Lw/9kAv+2rf9hAv+HAv5fAv6BcP5dAv5AAv4pAv/Pl/+YAv+mm/5RAv+tl//fl/9/Av5dR/5xXv41Av+uAv4wAv5bAv+cAv+lAv+Sg/9jAv42B//Xl/+FAv+yl/+1l/+BAv5OAv/El//Yl/45Av4gAv4CCP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgBnACwAAAAAGwATAAAHmYBmgoOEhYaHiImKi4yNGwmNjA0DkYoFZJSViFhkDpqDGoQNZAeDBJURKRZmGGRkE4IAFACROGQSAq5kCIIGZAyLp2ZBrjNERlIwGQquPoslFxBmUDk9Vko0R7octIoAuQIcQjaCYoJdJpEZukBmZWXu8PHv8+/yva4k8fv0+/6FE3LVg9ev4D1D0ugplGdw0UJB9u71+7QoEAAh+QQFCgBnACwBAAAAFQARAAAHloBmgoOEgwABhYmKDAKIio9mASAxkJAIZAaVjw1kB5qJD2RkA4afZgOiFWYFBgCmFaKiEgyPGwWDARGxLA6QIyeCAS1kKEiduAiugxQsCAcCZGAqWhUEBRhFERSFLrEoKyJDVTWxohq4ZhdkTYJJgmFehDqEITCiZmVl+Pr7+fuCC0Dc80eQn79CG3rlW/ivoaKCDQ8GAgAh+QQFCgBnACwBAAAAFQAQAAAHlIBngoOEg2ZmhYmKh4iKjmeMj4+RkosBD5WJAyFRAIYLno8GZGcaiGYJLheJFgGCCmSkHTEtH2QcFoUAAgpnBRI7VINkAi8QiQuxsSQ3HhIlCY2Qh5hnyWQeK19cKhE/DgoHDJEZIwkPZEwiPFNXT2OxKRgQlC9ktllbgk6CJkuE0gI0ICUjUyECJzoYVERgwsIzgQAAOw=="
+                         alt="hot" class="hot" data-v-67eb4459></div>
+                <div class="login-box fr" data-v-67eb4459><span class="item-text" data-v-67eb4459>登录</span> / <span
+                            class="item-text" data-v-67eb4459>注册</span></div>
+            </div>
+        </header>
+        <div class="content-wrap-box" data-v-53617b3a><!---->
+            <div class="index-wrap-box" data-v-07882ec7 data-v-53617b3a data-v-53617b3a>
+                <div id="banner" class="banner-wrap clearfix" data-v-07882ec7>
+                    <div class="banner-left fl" data-v-07882ec7>
+                        <div id="bannerContent" class="content" data-v-07882ec7>
+                            <ul data-v-07882ec7>
+                                <li class="banner-item active" data-v-07882ec7><a
+                                            href="https://www.duanliang920.com/muban/blog/348.html" target="_blank"
+                                            data-v-07882ec7><img src="static/picture/1534219822974.jpeg" width="480"
+                                                                 height="300" alt="banner0" data-v-07882ec7></a></li>
+                                <li class="banner-item" data-v-07882ec7><a
+                                            href="https://www.duanliang920.com/learn/web/9154.html?isVip=1"
+                                            target="_blank" data-v-07882ec7><img src="static/picture/1562037755.jpeg"
+                                                                                 width="480" height="300" alt="banner1"
+                                                                                 data-v-07882ec7></a></li>
+                                <li class="banner-item" data-v-07882ec7><a href="javascript:;" target="_blank"
+                                                                           data-v-07882ec7><img
+                                                src="static/picture/1534219829691.jpeg" width="480" height="300"
+                                                alt="banner2" data-v-07882ec7></a></li>
+                                <li class="banner-item" data-v-07882ec7><a href="javascript:;" target="_blank"
+                                                                           data-v-07882ec7><img
+                                                src="static/picture/1534219833362.jpeg" width="480" height="300"
+                                                alt="banner3" data-v-07882ec7></a></li>
+                                <li class="banner-item" data-v-07882ec7><a href="javascript:;" target="_blank"
+                                                                           data-v-07882ec7><img
+                                                src="static/picture/1534219838073.jpeg" width="480" height="300"
+                                                alt="banner4" data-v-07882ec7></a></li>
+                            </ul>
+                        </div>
+                        <div class="switch-btn-box" data-v-07882ec7>
+                            <div class="hover-bg" data-v-07882ec7></div>
+                            <ul id="switchBtn" data-v-07882ec7>
+                                <li data-v-07882ec7><a href="javascript:;" data-v-07882ec7><img
+                                                src="static/picture/1534219822974.jpeg" width="100" height="50"
+                                                alt="banner0" data-v-07882ec7></a></li>
+                                <li data-v-07882ec7><a href="javascript:;" data-v-07882ec7><img
+                                                src="static/picture/1562037755.jpeg" width="100" height="50"
+                                                alt="banner1" data-v-07882ec7></a></li>
+                                <li data-v-07882ec7><a href="javascript:;" data-v-07882ec7><img
+                                                src="static/picture/1534219829691.jpeg" width="100" height="50"
+                                                alt="banner2" data-v-07882ec7></a></li>
+                                <li data-v-07882ec7><a href="javascript:;" data-v-07882ec7><img
+                                                src="static/picture/1534219833362.jpeg" width="100" height="50"
+                                                alt="banner3" data-v-07882ec7></a></li>
+                                <li data-v-07882ec7><a href="javascript:;" data-v-07882ec7><img
+                                                src="static/picture/1534219838073.jpeg" width="100" height="50"
+                                                alt="banner4" data-v-07882ec7></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="banner-right fr" data-v-07882ec7><img src="static/picture/say-bg.3808a5f.jpg" alt="每日一语"
+                                                                      class="bg" data-v-07882ec7>
+                        <div class="banner-right-text" data-v-07882ec7>向前跑，迎着冷眼和嘲笑。</div>
+                    </div>
+                </div>
+                <div class="hot-module-box clearfix" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>热门推荐</h2>
+                    <div class="column-list-box fl" data-v-07882ec7><p class="active-line" data-v-07882ec7></p>
+                        <ul class="column-list-tab clearfix" data-v-07882ec7>
+                            <li class="column-list-tab-item fl active" data-v-07882ec7>建站必知</li>
+                            <li class="column-list-tab-item fl" data-v-07882ec7>SEO优化</li>
+                            <li class="column-list-tab-item fl" data-v-07882ec7>WEB前端</li>
+                            <li class="column-list-tab-item fl" data-v-07882ec7>DEDE CMS</li>
+                        </ul>
+                        <div class="column-list-content-box" data-v-07882ec7>
+                            <div class="list-box clearfix" data-v-07882ec7>
+                                <div class="common-list-content fl" data-v-07882ec7>
+                                    <div class="clearfix" data-v-07882ec7>
+                                        <div class="img-list fl" data-v-07882ec7><a href="/learn136.html"
+                                                                                    target="_blank" class="link"
+                                                                                    data-v-07882ec7><img
+                                                        src="static/picture/1-14030h14r70-l.jpg" alt="一个网站的开发流程"
+                                                        title="一个网站的开发流程" class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>一个网站的开发流程</span>
+                                                </h3></a><a href="/learn/SEO/al/308.html?isVip=1" target="_blank"
+                                                            class="link" data-v-07882ec7><img
+                                                        src="static/picture/1-1504162102340-l.jpg"
+                                                        alt="利用百度数据来做SEO优化系列（一）" title="利用百度数据来做SEO优化系列（一）"
+                                                        class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>利用百度数据来做SEO优化系列（一）</span>
+                                                </h3></a><!----><!----><!----><!----><!----></div>
+                                        <div class="article-list fl" data-v-07882ec7><!----><!----><a
+                                                    href="/learn/SEO/wt/187.html" target="_blank" class="link active"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>1</span>
+                                                <h3 class="title" data-v-07882ec7>为什么新站前期排名老是浮动？</h3>
+                                                <p class="info" style="display:;" data-v-07882ec7>
+                                                    很多SEO新人提问同样的问题：为什么我的网站做了1个月（甚至更短），有了排名，最近几天掉了，怎么办？ 新站关键词浮动
+                                                    首先，新站关键词浮动是一个常态。
+                                                    不管是我自己做的站，还是在论坛帮助新手解答分析的网站。我发现，50%以上的新站在前期会出现关键词</p></a><a
+                                                    href="/learn271.html" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>2</span>
+                                                <h3 class="title" data-v-07882ec7>关于网站空间服务器的选择</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    如果对网站空间服务有一点点了解的朋友，我们都知道网站空间服务器，可以简单的分为三类，一类是： 虚拟空间 ，一类是： 云主机 、一类是：
+                                                    VPS 。那么他们之间的区别在哪里呢？以及在选购的时候我们又要需注意什么呢？那么 今天由笔者给大家浅析下：云主机</p></a><a
+                                                    href="/learn/SEO/wt/155.html" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>3</span>
+                                                <h3 class="title" data-v-07882ec7>什么是404错误页面？</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>什么是404错误页面：
+                                                    告诉浏览者其所请求的页面不存在或链接错误，同时引导用户使用网站其他页面而不是关闭窗口离开。 产生404错误页面原因：
+                                                    1.网页URL生成规则改变。 2.网页文件更名或移动位置。 3.导入链接拼写错误。 注：以上3个为常见原因，从而导致原</p>
+                                            </a><a href="/learn/SEO/yh/168.html" target="_blank" class="link"
+                                                   data-v-07882ec7><span class="num" data-v-07882ec7>4</span>
+                                                <h3 class="title" data-v-07882ec7>新手须知：域名该如何选择</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    建立网站之前，域名的选取是必不可少的，网站的域名和人的名字是一样的，一旦确定了就不能再次更改了。因此我们一定要选择好域名，那么究竟应该如何选择域名呢？《百度搜索引擎优化指南》中提到：域名是用户对网站的第一印象，能否让用户迅速记住域名对网站发</p>
+                                            </a><a href="/learn/SEO/wt/154.html" target="_blank" class="link"
+                                                   data-v-07882ec7><span class="num" data-v-07882ec7>5</span>
+                                                <h3 class="title" data-v-07882ec7>什么是网站权重</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    网站权重：是指搜索引擎给网站（包括网页）赋予一定的权威值，对网站（包括网页）权威的评估评价（也就是网站与网站在搜索引擎眼中的分级制待遇的不同表现，还有一个想法就是综合搜索引擎算法中所有有利因素所带来的数值效果被搜索引擎所认可）。一个网站权重</p>
+                                            </a></div>
+                                    </div><!----><!----><!----></div>
+                                <div class="common-list-content fl" data-v-07882ec7><!---->
+                                    <div class="clearfix" data-v-07882ec7>
+                                        <div class="img-list fl" data-v-07882ec7><a
+                                                    href="/learn/SEO/jj/208.html?isVip=1" target="_blank" class="link"
+                                                    data-v-07882ec7><img src="static/picture/1-140422225z50-l.jpg"
+                                                                         alt="如何才能写好一篇软文？" title="如何才能写好一篇软文？"
+                                                                         class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>如何才能写好一篇软文？</span>
+                                                </h3></a><a href="/learn/SEO/yh/244.html" target="_blank" class="link"
+                                                            data-v-07882ec7><img
+                                                        src="static/picture/1-1406121235060-l.jpg" alt="轻松教你如何查看网站日志"
+                                                        title="轻松教你如何查看网站日志" class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>轻松教你如何查看网站日志</span>
+                                                </h3></a><!----><!----><!----><!----><!----></div>
+                                        <div class="article-list fl" data-v-07882ec7><!----><!----><a
+                                                    href="/learn/SEO/jj/240.html?isVip=1" target="_blank"
+                                                    class="link active" data-v-07882ec7><span class="num"
+                                                                                              data-v-07882ec7>1</span>
+                                                <h3 class="title" data-v-07882ec7>关键词排名的三个时期</h3>
+                                                <p class="info" style="display:;" data-v-07882ec7>
+                                                    相信有很多seoer们都想让自己的目标关键词，快速进入百度排名，可是很苦恼的是，优化了很久排名也不见很大的效果。
+                                                    一句话说的好：“方法不对，努力白费”。如果你的优化方法不对，在怎么去优化，也是在做无用功。只有知道自己的网站关键词处在哪个时期，我</p>
+                                            </a><a href="/learn/web/248.html" target="_blank" class="link"
+                                                   data-v-07882ec7><span class="num" data-v-07882ec7>2</span>
+                                                <h3 class="title" data-v-07882ec7>学习seo的一些心得</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    从学习SEO起到现在差不多两个月时间了，也算是慢慢的走向seoer这个行业。在学习SEO这个过程中，我发现SEO这个行业相对于其它行业比较抽象。不像学其它的技术一样，你马上学出来，就能看到实战效果，而SEO却截然不同。因为SEO需要用一定时间去等结果，可能最</p>
+                                            </a><a href="/learn/SEO/al/234.html" target="_blank" class="link"
+                                                   data-v-07882ec7><span class="num" data-v-07882ec7>3</span>
+                                                <h3 class="title" data-v-07882ec7>关键词如何快速进入百度排名</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    昨天跟安然聊天，无意间发现自己的“个人博客这个关键词，已经在百度有排名了。这也证明了，我的SEO的优化方法已经渐渐起效果。通过一个多月的学习，发现SEO的精髓真的是那样“一切围绕用户来做、做好用户体验、挖掘用户需求”。
+                                                    还记得前几天去潭州学院，也</p></a><a href="/learn/SEO/yh/250.html"
+                                                                            target="_blank" class="link"
+                                                                            data-v-07882ec7><span class="num"
+                                                                                                  data-v-07882ec7>4</span>
+                                                <h3 class="title" data-v-07882ec7>SEO基础知识-新手必看</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    首先我觉得一些朋友可能对SEO是什么,还有不了解的。到底什么是SEO？SEO又能为我们做什么呢？ 我们先从百度百科上的定义上来看：
+                                                    SEO（Search Engine Optimization）汉译为搜索引擎优化。
+                                                    seo优化是专门利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内</p></a><a
+                                                    href="/learn/SEO/jj/225.html" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>5</span>
+                                                <h3 class="title" data-v-07882ec7>高质量软文该怎么写</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    笔者认为：一个网站是否能取得一个很好的排名，有一个很关键性的因素，那就是‘ 软文
+                                                    ’。为什么我会这么说呢？因为一篇高质量的软文，会给网站带来大量的流量，和巨大的效益。可能有些人不知道什么是软文，我对于 软文的定义
+                                                    是：软文是一篇具有营销性和实</p></a></div>
+                                    </div><!----><!----></div>
+                                <div class="common-list-content fl" data-v-07882ec7><!----><!---->
+                                    <div class="clearfix" data-v-07882ec7>
+                                        <div class="img-list fl" data-v-07882ec7><a
+                                                    href="/learn/web/html5/230.html?isVip=1" target="_blank"
+                                                    class="link" data-v-07882ec7><img
+                                                        src="static/picture/1-1409241qk3v2.jpg" alt="浅谈：html5和html的区别"
+                                                        title="浅谈：html5和html的区别" class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>浅谈：html5和html的区别</span>
+                                                </h3></a><a href="/learn/web/355.html?isVip=1" target="_blank"
+                                                            class="link" data-v-07882ec7><img
+                                                        src="static/picture/1-1f1162135520-l.jpg"
+                                                        alt="前端MVVM框架之“Vue.js组件篇”" title="前端MVVM框架之“Vue.js组件篇”"
+                                                        class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>前端MVVM框架之“Vue.js组件篇”</span>
+                                                </h3></a><!----><!----><!----><!----><!----></div>
+                                        <div class="article-list fl" data-v-07882ec7><!----><!----><a
+                                                    href="/learn/web/9153.html" target="_blank" class="link active"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>1</span>
+                                                <h3 class="title" data-v-07882ec7>前端监控系统之“理论篇”</h3>
+                                                <p class="info" style="" data-v-07882ec7>
+                                                    相信前端开发的朋友们，都有类似的经历。项目上线后，突然有一天收到部门Boss的反馈消息。 Boss:
+                                                    咦，小张呀！你看我们网站啊，有人反馈打开有点慢、打不开啊！你看下是怎么回事？</p></a><a
+                                                    href="/learn/web/353.html?isVip=1" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>2</span>
+                                                <h3 class="title" data-v-07882ec7>Webpack之“多页面开发”最佳实战</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    前言:相信之前看过这篇文章:前端构建工具之“Webpack”的朋友,对于Webpack有了一定的了解。那么今天
+                                                    就跟大家分享下:如何利用webpack,来进行多页面项目实战开发。 一、项目初始化安装 1、先安装node.js 和 webpack
+                                                    第一步:如果没有安装node的朋友,可以去官网</p></a><a href="/learn/web/354.html?isVip=1"
+                                                                                      target="_blank" class="link"
+                                                                                      data-v-07882ec7><span class="num"
+                                                                                                            data-v-07882ec7>3</span>
+                                                <h3 class="title" data-v-07882ec7>前端MVVM框架之“Vue.js入门篇”</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    前言:新项目忙了差不多两个月时间,现在终于能闲下来有时间写文章,与大家一起学习、分享啦!废话不多说,进入今天的主题:
+                                                    “前端主流MVVM框架--后起之秀Vue.js” 或许有人会疑问？咦，为什么介绍Vue.js呢?
+                                                    我只晓得Angular、React。Vue.js是什么鬼？Vue到底有着</p></a><a
+                                                    href="/learn/web/html5/304.html" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>4</span>
+                                                <h3 class="title" data-v-07882ec7>HTML5移动端手机网站开发流程</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    最近一直在研究移动手机网站的开发，发现做手机网站没有想象中的那么难。为什么会这么说呢？我们试想下:我们连传统的PC网站都会做，
+                                                    难道连一个小小的手机网站难道都搞不定吗？其实手机网站就是一个微缩版的PC网站罢了！至于为什么觉得难、觉得无从下手。 段</p>
+                                            </a><a href="/learn/web/html5/342.html" target="_blank" class="link"
+                                                   data-v-07882ec7><span class="num" data-v-07882ec7>5</span>
+                                                <h3 class="title" data-v-07882ec7>webapp移动端适配方案之“手淘框架flexible”</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    前言:这篇文章,本来准备在去年年底的时候,分享给大家的。可由于年末工作比较忙的原因,再加上自己的一些情况,
+                                                    就一直拖到现在才开始写。好了废话不多说啦!我们一起来看看,手淘的这个“flexible”库是怎么用的!
+                                                    在学会用之前,我们还是先了解一些东西吧! 一、基</p></a></div>
+                                    </div><!----></div>
+                                <div class="common-list-content fl" data-v-07882ec7><!----><!----><!---->
+                                    <div class="clearfix" data-v-07882ec7>
+                                        <div class="img-list fl" data-v-07882ec7><a href="/learn/dede/205.html?isVip=1"
+                                                                                    target="_blank" class="link"
+                                                                                    data-v-07882ec7><img
+                                                        src="static/picture/1-1404191501060-l.jpg"
+                                                        alt="织梦dede常用的调用标签（个人总结）" title="织梦dede常用的调用标签（个人总结）"
+                                                        class="article-image" data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>织梦dede常用的调用标签（个人总结）</span>
+                                                </h3></a><a href="/learn/dede/265.html" target="_blank" class="link"
+                                                            data-v-07882ec7><img
+                                                        src="static/picture/1-140r11552440-l.jpg"
+                                                        alt="dedecms5.7安装百度(ueditor)编辑器的方法"
+                                                        title="dedecms5.7安装百度(ueditor)编辑器的方法" class="article-image"
+                                                        data-v-07882ec7>
+                                                <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>dedecms5.7安装百度(ueditor)编辑器的方法</span>
+                                                </h3></a><!----><!----><!----><!----><!----></div>
+                                        <div class="article-list fl" data-v-07882ec7><!----><!----><a
+                                                    href="/learn/dede/280.html" target="_blank" class="link active"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>1</span>
+                                                <h3 class="title" data-v-07882ec7>dede文章页如何调用动态浏览量</h3>
+                                                <p class="info" style="display:;" data-v-07882ec7>
+                                                    用过dede（织梦）的朋友都知道，通常我们内容页的“浏览次数都是通过静态调用的，无论怎么去刷新页面，所调用出来的数字都不会改变。
+                                                    这样很不利于用户体验。那么我们又怎么去解决这一问题，进一步提升我们网站的用户体验呢？在这里段亮提供一个很好的解决办</p></a><a
+                                                    href="/learn/dede/256.html" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>2</span>
+                                                <h3 class="title" data-v-07882ec7>简单三步-实现dede站内搜索功能</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    前几天，在帮一个客户在做网站时，因为客户要求网站内要弄一个产品搜索功能。因为才接触dede不久,对于dede也不是很熟悉。在网上查询了一些资料，但觉得网上的资料很杂乱，把一个简单的东西变为复杂化了。下面我就跟大家分享一下：
+                                                    三步 如何实现dede制作网站</p></a><a href="/learn/dede/293.html"
+                                                                              target="_blank" class="link"
+                                                                              data-v-07882ec7><span class="num"
+                                                                                                    data-v-07882ec7>3</span>
+                                                <h3 class="title" data-v-07882ec7>dedecms怎么给自定义表单添加验证码功能</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    这两天帮朋友使用dede仿站的过程中发现一个问题，因为有个在线咨询模块，需要使用到dede的自定义表单提交数据到后台才能实现。
+                                                    但官方没有给该模块加入验证码校验功能，可能会导致一些恶意提交。通过在网上查询了相关的资料，才完成了此功能。今天就把这个方</p></a><a
+                                                    href="/learn/dede/310.html?isVip=1" target="_blank" class="link"
+                                                    data-v-07882ec7><span class="num" data-v-07882ec7>4</span>
+                                                <h3 class="title" data-v-07882ec7>简单三步：利用dede自定义表单，实现在线邮件功能</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    这两天刚好帮客户做网站，因为客户有这样一个需求：那就是通过网站点击在线预约系统，想预约的信息，直接发送到他的邮箱。
+                                                    而不是网站后台。刚好后台是用的DEDECMS，于是想到了利用自定义表单来做。 下面我就来分享下：如果利用DEDECMS自定义表单，来
+                                                    实现我</p></a><a href="/learn/dede/340.html" target="_blank"
+                                                                  class="link" data-v-07882ec7><span class="num"
+                                                                                                     data-v-07882ec7>5</span>
+                                                <h3 class="title" data-v-07882ec7>dedecms Ajax异步获取文章列表</h3>
+                                                <p class="info" style="display:none;" data-v-07882ec7>
+                                                    最近趁着自己有点时间,就把自己博客的个人日记模块改进了下。 可能大家都知道:以前个人日记这个模块,
+                                                    都是通过普遍的文章列表加+分页的形式来进行展示的。可效果却又采用了CSS3+时光轴的效果来制作的,总感觉有点不搭配。
+                                                    很早前就想通过ajax异步去从数据库拿</p></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hot-module-side fr" data-v-07882ec7>
+                        <div class="search-wrap" data-v-07882ec7><input type="text" id="searchValue"
+                                                                        placeholder="请输入你需要的内容" value=""
+                                                                        class="search-value" data-v-07882ec7> <i
+                                    class="dl-icon dl-icon-search search-btn" data-v-07882ec7></i></div>
+                        <div class="side-nav" data-v-07882ec7>
+                            <ul class="clearfix" data-v-07882ec7>
+                                <li class="nav-1" data-v-07882ec7><a href="/about" data-v-07882ec7>关于我</a></li>
+                                <li class="nav-2" data-v-07882ec7><a href="/video" data-v-07882ec7>视频教程</a></li>
+                                <li class="nav-3" data-v-07882ec7><a href="/learn/seo" data-v-07882ec7>SEO优化</a></li>
+                                <li class="nav-4" data-v-07882ec7><a href="/Guestbook?page=1&sort=1"
+                                                                     data-v-07882ec7>留言版</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-module-wrap clearfix" data-v-07882ec7>
+                    <div class="video-module" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>视频教程</h2>
+                        <div class="video-list-content-box" data-v-07882ec7>
+                            <ul class="video-nav-list clearfix" data-v-07882ec7>
+                                <li class="video-nav-item fl active" data-v-07882ec7>网页制作视频</li>
+                                <li class="video-nav-item fl" data-v-07882ec7>DEDECMS视频</li>
+                            </ul>
+                            <ul class="video-list-content clearfix" style="display:;" data-v-07882ec7>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/web/jc/6958.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/jc.jpg"
+                                                                                  alt="网站制作实战开发教程（3）：网站头部制作"
+                                                                                  title="网站制作实战开发教程（3）：网站头部制作"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>网站制作实战开发教程（3）：网站头部制作</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>39</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/web/jc/7839.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/jc.jpg"
+                                                                                  alt="网站制作基础视频教学（第七节课）"
+                                                                                  title="网站制作基础视频教学（第七节课）"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>网站制作基础视频教学（第七节课）</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>93</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/web/jc/9746.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/sz1.jpg"
+                                                                                  alt="网站制作实战开发教程（2）：网页效果图切图"
+                                                                                  title="网站制作实战开发教程（2）：网页效果图切图"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>网站制作实战开发教程（2）：网页效果图切图</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>93</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/web/jc/8245.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/jc.jpg"
+                                                                                  alt="网站制作实战开发教程（1）：一个网站的开发流程"
+                                                                                  title="网站制作实战开发教程（1）：一个网站的开发流程"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>网站制作实战开发教程（1）：一个网站的开发流程</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>105</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                            </ul>
+                            <ul class="video-list-content clearfix" style="display:none;" data-v-07882ec7>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/dede/393.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/dede.jpg"
+                                                                                  alt="dedecms 建站视频教程（第一节课）"
+                                                                                  title="dedecms 建站视频教程（第一节课）"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>dedecms 建站视频教程（第一节课）</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>107</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/dede/2843.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/dede4.jpg"
+                                                                                  alt="dedecms 建站视频教程（第二节课）"
+                                                                                  title="dedecms 建站视频教程（第二节课）"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>dedecms 建站视频教程（第二节课）</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>77</span>人观看过
+                                            <span class="free fr" data-v-07882ec7>免费试看</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/dede/5584.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/dede5.jpg"
+                                                                                  alt="dedecms 建站视频教程（第三节课）"
+                                                                                  title="dedecms 建站视频教程（第三节课）"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>dedecms 建站视频教程（第三节课）</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>104</span>人观看过
+                                            <span class="price fr" data-v-07882ec7>￥9.9元</span></p></a></li>
+                                <li class="video-item fl" data-v-07882ec7><a href="/video/dede/1047.html?isVip=1"
+                                                                             target="_blank" class="video-link"
+                                                                             data-v-07882ec7>
+                                        <div class="img-box" data-v-07882ec7><img src="static/picture/dede4.jpg"
+                                                                                  alt="dedecms 建站视频教程（第四节课）"
+                                                                                  title="dedecms 建站视频教程（第四节课）"
+                                                                                  class="video-image" data-v-07882ec7>
+                                        </div>
+                                        <h3 class="title" data-v-07882ec7><span class="text" data-v-07882ec7>dedecms 建站视频教程（第四节课）</span>
+                                        </h3>
+                                        <p class="info-text clearfix" data-v-07882ec7><span class="num" data-v-07882ec7>57</span>人观看过
+                                            <span class="price fr" data-v-07882ec7>￥9.9元</span></p></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content clearfix" data-v-07882ec7>
+                    <div class="main-content-box fl" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>文章推荐</h2>
+                        <div class="article-list-box" data-v-07882ec7>
+                            <div class="article-wrap-box" data-v-235bc085 data-v-07882ec7>
+                                <ul class="article-list" data-v-235bc085>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/140605/1-1406052123280-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-1406052123280-l.jpg" alt="如何建立个人博客？"
+                                                        class="preview" data-v-235bc085></a>
+                                            <p class="common-label" data-v-235bc085>热<span class="triangle"
+                                                                                           data-v-235bc085></span></p>
+                                            <!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn232.html" target="_blank"
+                                                        data-v-235bc085>如何建立个人博客？</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2014-06-05 10:24:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn"
+                                                                                                data-v-235bc085>学无止境</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                想必很多人都想建立一个，属于自己的个人博客，把自己的一些学习的经验和经历，通过互联网的形式来分享给别人。通过分享与网友进行互动，让更多的人了解和认识你，并且树立自己在互联网上的个人品牌，其实这就是一种“自媒体”。那么我们怎么去建立自己独立...</p>
+                                        </div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/images/2019-06-30/1561886441.jpeg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1561886441.jpeg" alt="前端监控系统之“实战篇”"
+                                                        class="preview" data-v-235bc085></a><!----><p
+                                                    class="common-label new" data-v-235bc085>新<span class="triangle"
+                                                                                                    data-v-235bc085></span>
+                                            </p></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/web/9154.html?isVip=1" target="_blank"
+                                                        data-v-235bc085>前端监控系统之“实战篇”</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2019-06-30 17:08:37</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/web/"
+                                                                                                data-v-235bc085>WEB前端</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                决定开始动笔写实战篇的时候，望了望时间，距离上一篇文章《前端监控系统之“理论篇”》差不多过去4个月的时间啦，时间过得可真快。在这期间，还有朋友留言给我：前端监控系统实战篇还会继续写吗？我回答着：写，一定会写。之所以没那么着急写，一方面：因为这段时间工作确实...</p>
+                                        </div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="https://cdn.duanliang920.com/uploads/allimg/140902/1-140Z21522250-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-140z21522250-l.jpg" alt="自媒体博客的出路在哪里？"
+                                                        class="preview" data-v-235bc085></a><!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/gw/4589.html" target="_blank" data-v-235bc085>自媒体博客的出路在哪里？</a>
+                                            </h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2018-12-26 01:07:08</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/gw/"
+                                                                                                data-v-235bc085>程序人身</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                现在是2018年12月26号凌晨，距博客创建之时已有4年之久。回想这4年一路走来，有过喜悦、有过努力、有过迷茫...
+                                                曾经想的是，能有朝一日在“个人博客”这个关键词超越青姐的博客，而现在博客的百度排名确实也超...</p></div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/images/1537260882208.jpeg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1537260882208.jpeg" alt="聊聊我们说的网站优化"
+                                                        class="preview" data-v-235bc085></a><!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn416.html" target="_blank"
+                                                        data-v-235bc085>聊聊我们说的网站优化</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2018-09-18 16:44:22</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn"
+                                                                                                data-v-235bc085>学无止境</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                前言：网站打开的快慢，在一定程度上影响着用户的流失率。据不完全统计网站打开时间超过3s，就有将近40%的用户会选择关闭。因此，加载速度也成为了，搜索引擎排序中的一项因素。让我们一起看看有哪些优化点是我们值得关注的！...</p>
+                                        </div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/170116/1-1F1162135520-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-1f1162135520-l.jpg"
+                                                        alt="前端MVVM框架之“Vue.js组件篇”" class="preview" data-v-235bc085></a>
+                                            <!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/web/355.html?isVip=1" target="_blank"
+                                                        data-v-235bc085>前端MVVM框架之“Vue.js组件篇”</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2017-01-16 21:44:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/web/"
+                                                                                                data-v-235bc085>WEB前端</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>前言:
+                                                相信看过上一篇“Vue.js入门”的同学,对Vue.js大概有了一定程度上的了解。废话不多说,今天我们接着聊Vue.js的组件系统!
+                                                为什么说:组件系统是Vue.js中一个核心的功能呢?
+                                                通俗点说:它能帮助我们提升整个项目的开发效率,能够把页面抽象成多个相对独立的模...</p></div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/160903/1-160Z3231953U9.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-160z3231953u9.jpg"
+                                                        alt="Webpack之“多页面开发”最佳实战" class="preview" data-v-235bc085></a>
+                                            <!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/web/353.html?isVip=1" target="_blank"
+                                                        data-v-235bc085>Webpack之“多页面开发”最佳实战</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2016-09-03 22:38:40</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/web/"
+                                                                                                data-v-235bc085>WEB前端</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                前言:相信之前看过这篇文章:前端构建工具之“Webpack”的朋友,对于Webpack有了一定的了解。那么今天
+                                                就跟大家分享下:如何利用webpack,来进行多页面项目实战开发。 一、项目初始化安装 1、先安装node.js 和 webpack
+                                                第一步:如果没有安装node的朋友,可以去官网...</p></div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/150501/1-1505011950440-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-1505011950440-l.jpg"
+                                                        alt="利用百度数据来做SEO优化系列（二）" class="preview" data-v-235bc085></a>
+                                            <!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/SEO/al/309.html" target="_blank" data-v-235bc085>利用百度数据来做SEO优化系列（二）</a>
+                                            </h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2015-05-01 17:41:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/SEO/al/"
+                                                                                                data-v-235bc085>SEO实战案例</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                最近一直忙着公司项目的上线，以及还没来得及跟大家分享，刚好趁着5.1放假，有时间就接着上次的话题来跟大家一起分享。
+                                                在利用百度数据来做SEO优化系列（一）这篇文章中提到了，现在做SEO优化，不能有以前的老思维来做seo优化了。现在要围绕“用户体验”来做...</p>
+                                        </div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/141014/1-141014163Z50-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-141014163z50-l.jpg" alt="如何学习网页制作（个人经验）"
+                                                        class="preview" data-v-235bc085></a><!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/web/jc/288.html?isVip=1" target="_blank"
+                                                        data-v-235bc085>如何学习网页制作（个人经验）</a></h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2014-10-14 10:33:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/web/jc/"
+                                                                                                data-v-235bc085>网页制作基础</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                最近看了聪哥的（SEO白手起家的创业录）有很深的感触!我觉得有一些话说得很有道理：如果你分享的东西，不是你亲自经历过，或者实践过的话，
+                                                你的分享是很难打动别人和得到别人的认同。其实最真实的故事，才是最有价值！ 还记得刚接触网页制作的时候还是大二...</p></div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/140905/1-140Z51U3370-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-140z51u3370-l.jpg"
+                                                        alt="站长们，还在发帖吗？要想成功该转换思维了" class="preview" data-v-235bc085></a>
+                                            <!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn274.html" target="_blank" data-v-235bc085>站长们，还在发帖吗？要想成功该转换思维了</a>
+                                            </h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2014-09-05 21:34:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn"
+                                                                                                data-v-235bc085>学无止境</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                在正式开始本文之前，先简单介绍一下个人背景：06年就开始研究SEO、站长圈，最好的时候个人博客“SEO”关键词排到百度第二页。后来运营过门户网站、B2C商城，是一名在站长行当里摸爬滚打超过8年的老鸟，现在有自己运营的公司。
+                                                之所以说那么多，是想表明我不...</p></div>
+                                    </li>
+                                    <li class="article-item clearfix" data-v-235bc085>
+                                        <div class="news-img-box fl" data-v-235bc085><a
+                                                    href="//cdn.duanliang920.com/uploads/allimg/140703/1-140F31631310-L.jpg"
+                                                    class="progressive replace" data-v-235bc085><img
+                                                        src="static/picture/1-140f31631310-l.jpg" alt="学习seo的一些心得"
+                                                        class="preview" data-v-235bc085></a><!----><!----></div>
+                                        <div class="news-content fr" data-v-235bc085><h3 class="title-h3"
+                                                                                         data-v-235bc085><a
+                                                        href="/learn/web/248.html" target="_blank" data-v-235bc085>学习seo的一些心得</a>
+                                            </h3>
+                                            <div class="author-info clearfix" data-v-235bc085><p class="author fl"
+                                                                                                 data-v-235bc085><a
+                                                            href="/about" class="author-img" data-v-235bc085><img
+                                                                src="static/picture/author.5d032d5.png" width="33"
+                                                                height="33" alt="段亮" class="author-img" data-v-235bc085>
+                                                        <span data-v-235bc085>段亮</span></a></p><span
+                                                        class="date-time fl" data-v-235bc085>发布时间：<em data-v-235bc085>2014-07-03 14:55:00</em></span>
+                                                <span class="classify fl" data-v-235bc085>分类：<a href="/learn/SEO/jj/"
+                                                                                                data-v-235bc085>SEO优化进阶</a></span>
+                                            </div>
+                                            <p class="news-info" data-v-235bc085>
+                                                从学习SEO起到现在差不多两个月时间了，也算是慢慢的走向seoer这个行业。在学习SEO这个过程中，我发现SEO这个行业相对于其它行业比较抽象。不像学其它的技术一样，你马上学出来，就能看到实战效果，而SEO却截然不同。因为SEO需要用一定时间去等结果，可能最...</p>
+                                        </div>
+                                    </li>
+                                </ul><!----></div>
+                        </div>
+                    </div>
+                    <div class="main-content-side fr" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>关注博客</h2>
+                        <div class="concern-blog" data-v-07882ec7>
+                            <ul class="list" data-v-07882ec7>
+                                <li class="clearfix" data-v-07882ec7><p class="title fl" data-v-07882ec7>联系段亮:</p><a
+                                            href="http://wpa.qq.com/msgrd?v=3&uin=947580181&site=qq&menu=yes"
+                                            title="联系段亮" target="_blank" rel="nofollow" class="bg-ico ico-2 fl"
+                                            data-v-07882ec7></a></li>
+                                <li class="clearfix" data-v-07882ec7><p class="title fl" data-v-07882ec7>加入群聊：</p><a
+                                            href="http://shang.qq.com/wpa/qunwpa?idkey=89276e0cb9fadcbe6334cbba01277747ac448b27386421cc35e761282be31668"
+                                            title="段亮Web前端、SEO优化交流群" target="_blank" rel="nofollow"
+                                            class="bg-ico ico-3 fl" data-v-07882ec7></a></li>
+                                <li class="clearfix" data-v-07882ec7><p class="title fl" data-v-07882ec7>打赏博客：</p><img
+                                            src="static/picture/wechat-pay.1c50057.jpg" width="160" height="162"
+                                            alt="微信打赏" class="wechat" data-v-07882ec7></li>
+                            </ul>
+                        </div>
+                        <div class="hot-recommend-wrap" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>点击排行</h2>
+                            <div class="hot-recommend" data-v-07882ec7>
+                                <div class="hot-recommend-content" data-v-07882ec7>
+                                    <div class="common-list" data-v-07882ec7>
+                                        <ul data-v-07882ec7>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl num-1"
+                                                                                                 data-v-07882ec7>1 </span><a
+                                                        href="/learn232.html" class="link fl"
+                                                        data-v-07882ec7>如何建立个人博客？</a></li>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl num-2"
+                                                                                                 data-v-07882ec7>2 </span><a
+                                                        href="/learn136.html" class="link fl"
+                                                        data-v-07882ec7>一个网站的开发流程</a></li>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl num-3"
+                                                                                                 data-v-07882ec7>3 </span><a
+                                                        href="/learn/web/html5/230.html?isVip=1" class="link fl"
+                                                        data-v-07882ec7>浅谈：html5和html的区别</a></li>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl"
+                                                                                                 data-v-07882ec7>4 </span><a
+                                                        href="/learn/web/355.html?isVip=1" class="link fl"
+                                                        data-v-07882ec7>前端MVVM框架之“Vue.js组件篇”</a></li>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl"
+                                                                                                 data-v-07882ec7>5 </span><a
+                                                        href="/learn/SEO/jj/208.html?isVip=1" class="link fl"
+                                                        data-v-07882ec7>如何才能写好一篇软文？</a></li>
+                                            <li class="list-item clearfix" data-v-07882ec7><span class="num fl"
+                                                                                                 data-v-07882ec7>6 </span><a
+                                                        href="/learn/dede/205.html?isVip=1" class="link fl"
+                                                        data-v-07882ec7>织梦dede常用的调用标签（个人总结）</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-guestbook" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>最新评论</h2>
+                            <div class="guestbook-content" data-v-07882ec7>
+                                <ul class="comments-list" data-v-07882ec7>
+                                    <li class="no-data" data-v-07882ec7><img src="static/picture/loading.1f26c50.gif"
+                                                                             alt="loading..." class="loading"
+                                                                             data-v-07882ec7> 数据加载中...
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="along-the-way" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>一路走来</h2>
+                            <ul class="list" data-v-07882ec7>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2014-03-07</p>
+                                    <p class="content-text" data-v-07882ec7>v1.0 Beta版本发布</p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2014-03-23</p>
+                                    <p class="content-text" data-v-07882ec7>v1.0 版本正式发布：<br>完善网站基本功能：文章页添加多说留言插件...</p>
+                                </li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2014-08-20</p>
+                                    <p class="content-text" data-v-07882ec7>v2.0 版本正式发布：<br>博客风格进行改版，并优化网站细节。</p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2015-04-06</p>
+                                    <p class="content-text" data-v-07882ec7>v3.0 Beta版本发布：<br>对栏目进行改版布局，并添加新功能：百度站内搜索和段亮博客官方微信公众号！
+                                    </p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2016-08-14</p>
+                                    <p class="content-text" data-v-07882ec7>v3.0 版本正式发布：<br>对网站整体风格进行改版，并对代码进行重新优化构建。增加网站站内搜索功能！<a
+                                                href="http://blog.duanliang920.com/" target="_blank">点击查看</a></p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2018-09-11</p>
+                                    <p class="content-text" data-v-07882ec7>v4.0 Beta版本发布：<br>系统架构重构，新增会员系统、评论功能、支持在线视频观看！<a
+                                                href="/learn/gw/864.html">点击查看</a></p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2018-10-05</p>
+                                    <p class="content-text" data-v-07882ec7>v4.0 版本正式发布：<br>重构UI、视频模块，支持免费视频在线试看，优化视频观看学习体验！<a
+                                                href="/video?tid=1001&cid=1101">点击查看</a></p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2019-06-29</p>
+                                    <p class="content-text" data-v-07882ec7>v4.1版本更新：<br>支持VIP视频、会员、文章，单独付费购买，完善用户体验！
+                                    </p></li>
+                                <li data-v-07882ec7><p class="date-time" data-v-07882ec7>2019-10-13</p>
+                                    <p class="content-text" data-v-07882ec7>v4.2版本更新：<br>1、支持留言websocket实时回复。<br>2、支持系统消息推送。<br>3、解决第三方登录bug。
+                                    </p></li>
+                            </ul>
+                        </div>
+                        <div class="link-wrap" data-v-07882ec7><h2 class="title-h2" data-v-07882ec7>友情链接</h2>
+                            <ul class="list clearfix" data-v-07882ec7>
+                                <li data-v-07882ec7><a href="http://www.yixiaoxi.com/" target="_blank" title="item.name"
+                                                       data-v-07882ec7>艺小昔个人博客</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-wrap-box" data-v-23045106 data-v-53617b3a>
+            <div class="footer-wrap" data-v-23045106><span data-v-23045106>Design by：段亮</span> <span data-v-23045106>备案号：<strong
+                            data-v-23045106>湘ICP备14011335号-2</strong></span></div>
+            <div class="fixed-side-menu" data-v-23045106>
+                <ul class="list" data-v-23045106><!---->
+                    <li title="建议反馈" class="feedback" data-v-23045106><i class="dl-icon dl-icon-feedback"
+                                                                         data-v-23045106></i></li>
+                    <li data-v-23045106><a href="http://wpa.qq.com/msgrd?v=3&uin=947580181&site=qq&menu=yes"
+                                           target="_blank" class="qq" data-v-23045106><i class="dl-icon dl-icon-qq"
+                                                                                         data-v-23045106></i></a></li>
+                    <li class="wechat-box-wrap" data-v-23045106><i class="dl-icon dl-icon-wechat wechat"
+                                                                   data-v-23045106></i>
+                        <div class="wechat-img" style="display:none;" data-v-23045106><img
+                                    src="static/picture/weixin.1d64d26.png" width="150" height="135" alt="段亮博客官方微信公众号"
+                                    data-v-23045106></div>
+                    </li>
+                </ul>
+            </div>
+        </div><!----><!----></div>
+    <script>window.__INITIAL_STATE__ = {
+            "common": {"isShowFooter": true},
+            "dialog": {
+                "isShowDialog": false,
+                "dialogTitle": "提示",
+                "dialogSize": "small",
+                "dialogCancelText": "取消",
+                "dialogOkText": "确认",
+                "isShowDialogCloseBtn": true,
+                "isShowDialogOkBtn": true,
+                "dialogMaskClosable": true,
+                "isShowDialogCancelBtn": true,
+                "dialogView": ""
+            },
+            "loading": {"text": "Loading...", "isShowLoading": false},
+            "header": {},
+            "user": {"isLogin": false, "isShowLoginBox": false, "loginModuleTag": "", "userData": {}, "noticeNum": 0},
+            "comment": {"isUpdateComment": "", "commentItemData": {}},
+            "blogApi": {
+                "indexData": {
+                    "bannerList": [{
+                        "status": "success",
+                        "url": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F1534219822974.jpeg",
+                        "percent": 100,
+                        "showProgress": false,
+                        "link": "https:\u002F\u002Fwww.duanliang920.com\u002Fmuban\u002Fblog\u002F348.html"
+                    }, {
+                        "status": "success",
+                        "url": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F2019-07-2\u002F1562037755.jpeg",
+                        "percent": 100,
+                        "showProgress": false,
+                        "link": "https:\u002F\u002Fwww.duanliang920.com\u002Flearn\u002Fweb\u002F9154.html?isVip=1"
+                    }, {
+                        "status": "success",
+                        "url": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F1534219829691.jpeg",
+                        "percent": 100,
+                        "showProgress": false,
+                        "link": ""
+                    }, {
+                        "status": "success",
+                        "url": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F1534219833362.jpeg",
+                        "percent": 100,
+                        "showProgress": false
+                    }, {
+                        "status": "success",
+                        "url": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F1534219838073.jpeg",
+                        "percent": 100,
+                        "showProgress": false
+                    }],
+                    "everydayText": "向前跑，迎着冷眼和嘲笑。",
+                    "webVideoList": [{
+                        "read_role": 2,
+                        "read_price": 9.9,
+                        "aid": "6958",
+                        "pageView": 39,
+                        "title": "网站制作实战开发教程（3）：网站头部制作",
+                        "path": "\u002Fvideo\u002Fweb\u002Fjc\u002F6958.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fjc\u002Fjc.jpg",
+                        "description": "本节课程：主要讲解了项目的基础结构，以及网站实战案例头部的编写。",
+                        "video": {"is_see": 1}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 3,
+                        "aid": "7839",
+                        "pageView": 93,
+                        "title": "网站制作基础视频教学（第七节课）",
+                        "path": "\u002Fvideo\u002Fweb\u002Fjc\u002F7839.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fjc\u002Fjc.jpg",
+                        "description": "本节课：主要讲解在表格在网页中的应用，以及表格的一些小技巧。",
+                        "video": {"is_see": 1}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 5,
+                        "aid": "9746",
+                        "pageView": 93,
+                        "title": "网站制作实战开发教程（2）：网页效果图切图",
+                        "path": "\u002Fvideo\u002Fweb\u002Fjc\u002F9746.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fsz\u002Fsz1.jpg",
+                        "description": "本节课主要讲解：怎么根据网页效果图进行切图，根据项目需求切出我们想要的素材",
+                        "video": {"is_see": 1}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 5,
+                        "aid": "8245",
+                        "pageView": 105,
+                        "title": "网站制作实战开发教程（1）：一个网站的开发流程",
+                        "path": "\u002Fvideo\u002Fweb\u002Fjc\u002F8245.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fjc\u002Fjc.jpg",
+                        "description": "本节课：主要讲解了一个网站的开发流程。一个网站从前期开发到上线，具体经历了什么过程。期间又要注意些什么呢？",
+                        "video": {"is_see": 1}
+                    }],
+                    "dedeVideoList": [{
+                        "read_role": 2,
+                        "read_price": 9.9,
+                        "aid": "393",
+                        "pageView": 107,
+                        "title": "dedecms 建站视频教程（第一节课）",
+                        "path": "\u002Fvideo\u002Fdede\u002F393.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fdede\u002Fdede.jpg",
+                        "description": "本节课主要讲解：利用开源的CMS来搭建网站的后台管理。",
+                        "video": {"is_see": 1}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 9.9,
+                        "aid": "2843",
+                        "pageView": 77,
+                        "title": "dedecms 建站视频教程（第二节课）",
+                        "path": "\u002Fvideo\u002Fdede\u002F2843.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fdede\u002Fdede4.jpg",
+                        "description": "本节课主要讲解：建立网页栏目，根据CMS后台模板机制，建立通用头部、尾部模板。",
+                        "video": {"is_see": 1}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 9.9,
+                        "aid": "5584",
+                        "pageView": 104,
+                        "title": "dedecms 建站视频教程（第三节课）",
+                        "path": "\u002Fvideo\u002Fdede\u002F5584.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fdede\u002Fdede5.jpg",
+                        "description": "本节课主要讲解：栏目页完善和内容页面的数据调用。",
+                        "video": {"is_see": 0}
+                    }, {
+                        "read_role": 2,
+                        "read_price": 9.9,
+                        "aid": "1047",
+                        "pageView": 57,
+                        "title": "dedecms 建站视频教程（第四节课）",
+                        "path": "\u002Fvideo\u002Fdede\u002F1047.html?isVip=1",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fvideo\u002Fdede\u002Fdede4.jpg",
+                        "description": "本节课主要讲解：根据dedecms标签，对网站首页进行数据调用",
+                        "video": {"is_see": 0}
+                    }],
+                    "articleList": [{
+                        "attribute": ["h"],
+                        "read_role": 0,
+                        "read_price": 0,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "232",
+                        "type_id": 22,
+                        "title": "如何建立个人博客？",
+                        "author": "段亮",
+                        "path": "\u002Flearn232.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140605\u002F1-1406052123280-L.jpg",
+                        "description": "想必很多人都想建立一个，属于自己的个人博客，把自己的一些学习的经验和经历，通过互联网的形式来分享给别人。通过分享与网友进行互动，让更多的人了解和认识你，并且树立自己在互联网上的个人品牌，其实这就是一种“自媒体”。那么我们怎么去建立自己独立",
+                        "keywords": "分享,互联网,个人,建立",
+                        "publish_time": "2014-06-05 10:24:00",
+                        "category": {"_id": "5b715a38f7384355c3f8b7c0", "id": 22, "name": "学无止境", "path": "\u002Flearn"}
+                    }, {
+                        "attribute": [],
+                        "read_role": 2,
+                        "read_price": 3,
+                        "read_proportion": 1.8,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "9154",
+                        "type_id": 26,
+                        "title": "前端监控系统之“实战篇”",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fweb\u002F9154.html?isVip=1",
+                        "image": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F2019-06-30\u002F1561886441.jpeg",
+                        "description": "决定开始动笔写实战篇的时候，望了望时间，距离上一篇文章《前端监控系统之“理论篇”》差不多过去4个月的时间啦，时间过得可真快。在这期间，还有朋友留言给我：前端监控系统实战篇还会继续写吗？我回答着：写，一定会写。之所以没那么着急写，一方面：因为这段时间工作确实",
+                        "keywords": "",
+                        "publish_time": "2019-06-30 17:08:37",
+                        "category": {
+                            "_id": "5b715b15f7384355c3f8b7c7",
+                            "id": 26,
+                            "name": "WEB前端",
+                            "path": "\u002Flearn\u002Fweb\u002F"
+                        }
+                    }, {
+                        "attribute": ["p", "a"],
+                        "read_role": 0,
+                        "read_price": 0,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "4589",
+                        "type_id": 27,
+                        "title": "自媒体博客的出路在哪里？",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fgw\u002F4589.html",
+                        "image": "https:\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fallimg\u002F140902\u002F1-140Z21522250-L.jpg",
+                        "description": "现在是2018年12月26号凌晨，距博客创建之时已有4年之久。回想这4年一路走来，有过喜悦、有过努力、有过迷茫... 曾经想的是，能有朝一日在“个人博客”这个关键词超越青姐的博客，而现在博客的百度排名确实也超",
+                        "keywords": "",
+                        "publish_time": "2018-12-26 01:07:08",
+                        "category": {
+                            "_id": "5b715b38f7384355c3f8b7c8",
+                            "id": 27,
+                            "name": "程序人身",
+                            "path": "\u002Flearn\u002Fgw\u002F"
+                        }
+                    }, {
+                        "attribute": ["a"],
+                        "read_role": 0,
+                        "read_price": 0,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "416",
+                        "type_id": 22,
+                        "title": "聊聊我们说的网站优化",
+                        "author": "段亮",
+                        "path": "\u002Flearn416.html",
+                        "image": "\u002F\u002Fcdn.duanliang920.com\u002Fuploads\u002Fimages\u002F1537260882208.jpeg",
+                        "description": "前言：网站打开的快慢，在一定程度上影响着用户的流失率。据不完全统计网站打开时间超过3s，就有将近40%的用户会选择关闭。因此，加载速度也成为了，搜索引擎排序中的一项因素。让我们一起看看有哪些优化点是我们值得关注的！",
+                        "keywords": "网站优化、前端优化",
+                        "publish_time": "2018-09-18 16:44:22",
+                        "category": {"_id": "5b715a38f7384355c3f8b7c0", "id": 22, "name": "学无止境", "path": "\u002Flearn"}
+                    }, {
+                        "attribute": ["p", "a"],
+                        "read_role": 2,
+                        "read_price": 3,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "355",
+                        "type_id": 26,
+                        "title": "前端MVVM框架之“Vue.js组件篇”",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fweb\u002F355.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F170116\u002F1-1F1162135520-L.jpg",
+                        "description": "前言: 相信看过上一篇“Vue.js入门”的同学,对Vue.js大概有了一定程度上的了解。废话不多说,今天我们接着聊Vue.js的组件系统! 为什么说:组件系统是Vue.js中一个核心的功能呢? 通俗点说:它能帮助我们提升整个项目的开发效率,能够把页面抽象成多个相对独立的模",
+                        "keywords": "前端,MVVM,框架,Vue.js,组件,前言,相信,过上,一篇,Vue.js,入门,",
+                        "publish_time": "2017-01-16 21:44:00",
+                        "category": {
+                            "_id": "5b715b15f7384355c3f8b7c7",
+                            "id": 26,
+                            "name": "WEB前端",
+                            "path": "\u002Flearn\u002Fweb\u002F"
+                        }
+                    }, {
+                        "attribute": ["p", "a"],
+                        "read_role": 2,
+                        "read_price": 2,
+                        "read_proportion": 1.5,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "353",
+                        "type_id": 26,
+                        "title": "Webpack之“多页面开发”最佳实战",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fweb\u002F353.html?isVip=1",
+                        "image": "\u002Fuploads\u002F160903\u002F1-160Z3231953U9.jpg",
+                        "description": "前言:相信之前看过这篇文章:前端构建工具之“Webpack”的朋友,对于Webpack有了一定的了解。那么今天 就跟大家分享下:如何利用webpack,来进行多页面项目实战开发。 一、项目初始化安装 1、先安装node.js 和 webpack 第一步:如果没有安装node的朋友,可以去官网",
+                        "keywords": "Webpack,多页面开发,最佳,实战,前言,相信,之前,看过,这篇,文章,",
+                        "publish_time": "2016-09-03 22:38:40",
+                        "category": {
+                            "_id": "5b715b15f7384355c3f8b7c7",
+                            "id": 26,
+                            "name": "WEB前端",
+                            "path": "\u002Flearn\u002Fweb\u002F"
+                        }
+                    }, {
+                        "attribute": ["a"],
+                        "read_role": 2,
+                        "read_price": 3,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "309",
+                        "type_id": 33,
+                        "title": "利用百度数据来做SEO优化系列（二）",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002FSEO\u002Fal\u002F309.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F150501\u002F1-1505011950440-L.jpg",
+                        "description": "最近一直忙着公司项目的上线，以及还没来得及跟大家分享，刚好趁着5.1放假，有时间就接着上次的话题来跟大家一起分享。 在利用百度数据来做SEO优化系列（一）这篇文章中提到了，现在做SEO优化，不能有以前的老思维来做seo优化了。现在要围绕“用户体验”来做",
+                        "keywords": "利用,百度,数据,来做,SEO,优化,系列,最近,一直,忙着,公司,目的,",
+                        "publish_time": "2015-05-01 17:41:00",
+                        "category": {
+                            "_id": "5b715c82f7384355c3f8b7d0",
+                            "id": 33,
+                            "name": "SEO实战案例",
+                            "path": "\u002Flearn\u002FSEO\u002Fal\u002F"
+                        }
+                    }, {
+                        "attribute": ["a"],
+                        "read_role": 2,
+                        "read_price": 2,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "288",
+                        "type_id": 34,
+                        "title": "如何学习网页制作（个人经验）",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fweb\u002Fjc\u002F288.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F141014\u002F1-141014163Z50-L.jpg",
+                        "description": "最近看了聪哥的（SEO白手起家的创业录）有很深的感触!我觉得有一些话说得很有道理：如果你分享的东西，不是你亲自经历过，或者实践过的话， 你的分享是很难打动别人和得到别人的认同。其实最真实的故事，才是最有价值！ 还记得刚接触网页制作的时候还是大二",
+                        "keywords": "分享,聪哥的,SEO,白手起家",
+                        "publish_time": "2014-10-14 10:33:00",
+                        "category": {
+                            "_id": "5b715c6cf7384355c3f8b7cf",
+                            "id": 34,
+                            "name": "网页制作基础",
+                            "path": "\u002Flearn\u002Fweb\u002Fjc\u002F"
+                        }
+                    }, {
+                        "attribute": ["p", "a"],
+                        "read_role": 0,
+                        "read_price": 0,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "274",
+                        "type_id": 22,
+                        "title": "站长们，还在发帖吗？要想成功该转换思维了",
+                        "author": "段亮",
+                        "path": "\u002Flearn274.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140905\u002F1-140Z51U3370-L.jpg",
+                        "description": "在正式开始本文之前，先简单介绍一下个人背景：06年就开始研究SEO、站长圈，最好的时候个人博客“SEO”关键词排到百度第二页。后来运营过门户网站、B2C商城，是一名在站长行当里摸爬滚打超过8年的老鸟，现在有自己运营的公司。 之所以说那么多，是想表明我不",
+                        "keywords": "站长,还在,发帖,要想,成功,转换,思维,正式开始,本文,之前,简单,",
+                        "publish_time": "2014-09-05 21:34:00",
+                        "category": {"_id": "5b715a38f7384355c3f8b7c0", "id": 22, "name": "学无止境", "path": "\u002Flearn"}
+                    }, {
+                        "attribute": ["a"],
+                        "read_role": 0,
+                        "read_price": 0,
+                        "read_proportion": 2,
+                        "switch_comment": 1,
+                        "status": 1003,
+                        "aid": "248",
+                        "type_id": 32,
+                        "title": "学习seo的一些心得",
+                        "author": "段亮",
+                        "path": "\u002Flearn\u002Fweb\u002F248.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140703\u002F1-140F31631310-L.jpg",
+                        "description": "从学习SEO起到现在差不多两个月时间了，也算是慢慢的走向seoer这个行业。在学习SEO这个过程中，我发现SEO这个行业相对于其它行业比较抽象。不像学其它的技术一样，你马上学出来，就能看到实战效果，而SEO却截然不同。因为SEO需要用一定时间去等结果，可能最",
+                        "keywords": "seo,用户体验",
+                        "publish_time": "2014-07-03 14:55:00",
+                        "category": {
+                            "_id": "5b715c94f7384355c3f8b7d1",
+                            "id": 32,
+                            "name": "SEO优化进阶",
+                            "path": "\u002Flearn\u002FSEO\u002Fjj\u002F"
+                        }
+                    }],
+                    "webList": [{
+                        "aid": "230",
+                        "title": "浅谈：html5和html的区别",
+                        "path": "\u002Flearn\u002Fweb\u002Fhtml5\u002F230.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140924\u002F1-1409241QK3V2.jpg",
+                        "description": "最近看群里聊天聊得最火热的莫过于 手机网站 和 html5 这两个词。可能有人会问，这两者有什么关系呢？随着这移动互联网快速发展的时代，尤其是4G时代已经来临的时刻，加上微软对“XP系统”不提供更新补"
+                    }, {
+                        "aid": "355",
+                        "title": "前端MVVM框架之“Vue.js组件篇”",
+                        "path": "\u002Flearn\u002Fweb\u002F355.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F170116\u002F1-1F1162135520-L.jpg",
+                        "description": "前言: 相信看过上一篇“Vue.js入门”的同学,对Vue.js大概有了一定程度上的了解。废话不多说,今天我们接着聊Vue.js的组件系统! 为什么说:组件系统是Vue.js中一个核心的功能呢? 通俗点说:它能帮助我们提升整个项目的开发效率,能够把页面抽象成多个相对独立的模"
+                    }, {
+                        "aid": "9153",
+                        "title": "前端监控系统之“理论篇”",
+                        "path": "\u002Flearn\u002Fweb\u002F9153.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F170116\u002F1-1F1162135520-L.jpg",
+                        "description": "相信前端开发的朋友们，都有类似的经历。项目上线后，突然有一天收到部门Boss的反馈消息。 Boss: 咦，小张呀！你看我们网站啊，有人反馈打开有点慢、打不开啊！你看下是怎么回事？"
+                    }, {
+                        "aid": "353",
+                        "title": "Webpack之“多页面开发”最佳实战",
+                        "path": "\u002Flearn\u002Fweb\u002F353.html?isVip=1",
+                        "image": "\u002Fuploads\u002F160903\u002F1-160Z3231953U9.jpg",
+                        "description": "前言:相信之前看过这篇文章:前端构建工具之“Webpack”的朋友,对于Webpack有了一定的了解。那么今天 就跟大家分享下:如何利用webpack,来进行多页面项目实战开发。 一、项目初始化安装 1、先安装node.js 和 webpack 第一步:如果没有安装node的朋友,可以去官网"
+                    }, {
+                        "aid": "354",
+                        "title": "前端MVVM框架之“Vue.js入门篇”",
+                        "path": "\u002Flearn\u002Fweb\u002F354.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F161211\u002F1-161211200G00-L.jpg",
+                        "description": "前言:新项目忙了差不多两个月时间,现在终于能闲下来有时间写文章,与大家一起学习、分享啦!废话不多说,进入今天的主题: “前端主流MVVM框架--后起之秀Vue.js” 或许有人会疑问？咦，为什么介绍Vue.js呢? 我只晓得Angular、React。Vue.js是什么鬼？Vue到底有着"
+                    }, {
+                        "aid": "304",
+                        "title": "HTML5移动端手机网站开发流程",
+                        "path": "\u002Flearn\u002Fweb\u002Fhtml5\u002F304.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F150402\u002F1-1504022119110-L.jpg",
+                        "description": "最近一直在研究移动手机网站的开发，发现做手机网站没有想象中的那么难。为什么会这么说呢？我们试想下:我们连传统的PC网站都会做， 难道连一个小小的手机网站难道都搞不定吗？其实手机网站就是一个微缩版的PC网站罢了！至于为什么觉得难、觉得无从下手。 段"
+                    }, {
+                        "aid": "342",
+                        "title": "webapp移动端适配方案之“手淘框架flexible”",
+                        "path": "\u002Flearn\u002Fweb\u002Fhtml5\u002F342.html",
+                        "image": "\u002Fuploads\u002F160228\u002F1-16022QAHD33.jpg",
+                        "description": "前言:这篇文章,本来准备在去年年底的时候,分享给大家的。可由于年末工作比较忙的原因,再加上自己的一些情况, 就一直拖到现在才开始写。好了废话不多说啦!我们一起来看看,手淘的这个“flexible”库是怎么用的! 在学会用之前,我们还是先了解一些东西吧! 一、基"
+                    }],
+                    "seoList": [{
+                        "aid": "208",
+                        "title": "如何才能写好一篇软文？",
+                        "path": "\u002Flearn\u002FSEO\u002Fjj\u002F208.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140422\u002F1-140422225Z50-L.jpg",
+                        "description": "今天简单跟大家一起学习下，怎样才能写好软文，以及写软文的一些技巧。软文的写作不仅要让用户学到一些东西，还要让用户进入到你的软文里面，跟着你的文章走，只有这样你的软文才发挥它的价值。 1、提出观点 提出观点很重要，你要让用户明白你今天说的是什么"
+                    }, {
+                        "aid": "244",
+                        "title": "轻松教你如何查看网站日志",
+                        "path": "\u002Flearn\u002FSEO\u002Fyh\u002F244.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140612\u002F1-1406121235060-L.jpg",
+                        "description": "可能还有很多seoer和一些新手站长们，还不会怎么去分析日志。可能有人会说，会不会分析日志，关我屁事呀！有统计工具不就行了。如果是这样 那你就大错特错了。为什么这么说呢？ 因为日志分析和流量软件分析都能分析出网站各种流量、受访页情况、关键字数据等"
+                    }, {
+                        "aid": "240",
+                        "title": "关键词排名的三个时期",
+                        "path": "\u002Flearn\u002FSEO\u002Fjj\u002F240.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140622\u002F1-140622145H30-L.jpg",
+                        "description": "相信有很多seoer们都想让自己的目标关键词，快速进入百度排名，可是很苦恼的是，优化了很久排名也不见很大的效果。 一句话说的好：“方法不对，努力白费”。如果你的优化方法不对，在怎么去优化，也是在做无用功。只有知道自己的网站关键词处在哪个时期，我"
+                    }, {
+                        "aid": "248",
+                        "title": "学习seo的一些心得",
+                        "path": "\u002Flearn\u002Fweb\u002F248.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140703\u002F1-140F31631310-L.jpg",
+                        "description": "从学习SEO起到现在差不多两个月时间了，也算是慢慢的走向seoer这个行业。在学习SEO这个过程中，我发现SEO这个行业相对于其它行业比较抽象。不像学其它的技术一样，你马上学出来，就能看到实战效果，而SEO却截然不同。因为SEO需要用一定时间去等结果，可能最"
+                    }, {
+                        "aid": "234",
+                        "title": "关键词如何快速进入百度排名",
+                        "path": "\u002Flearn\u002FSEO\u002Fal\u002F234.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140612\u002F1-1406121235060-L.jpg",
+                        "description": "昨天跟安然聊天，无意间发现自己的“个人博客这个关键词，已经在百度有排名了。这也证明了，我的SEO的优化方法已经渐渐起效果。通过一个多月的学习，发现SEO的精髓真的是那样“一切围绕用户来做、做好用户体验、挖掘用户需求”。 还记得前几天去潭州学院，也"
+                    }, {
+                        "aid": "250",
+                        "title": "SEO基础知识-新手必看",
+                        "path": "\u002Flearn\u002FSEO\u002Fyh\u002F250.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140710\u002F1-140G01915240-L.jpg",
+                        "description": "首先我觉得一些朋友可能对SEO是什么,还有不了解的。到底什么是SEO？SEO又能为我们做什么呢？ 我们先从百度百科上的定义上来看： SEO（Search Engine Optimization）汉译为搜索引擎优化。 seo优化是专门利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内"
+                    }, {
+                        "aid": "225",
+                        "title": "高质量软文该怎么写",
+                        "path": "\u002Flearn\u002FSEO\u002Fjj\u002F225.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140519\u002F1-140519220H50-L.jpg",
+                        "description": "笔者认为：一个网站是否能取得一个很好的排名，有一个很关键性的因素，那就是‘ 软文 ’。为什么我会这么说呢？因为一篇高质量的软文，会给网站带来大量的流量，和巨大的效益。可能有些人不知道什么是软文，我对于 软文的定义 是：软文是一篇具有营销性和实"
+                    }],
+                    "textList": [{"date": "2014-03-07", "text": "v1.0 Beta版本发布"}, {
+                        "date": "2014-03-23",
+                        "text": "v1.0 版本正式发布：\u003Cbr\u002F\u003E\n完善网站基本功能：文章页添加多说留言插件..."
+                    }, {
+                        "date": "2014-08-20",
+                        "text": "v2.0 版本正式发布：\u003Cbr\u002F\u003E\n博客风格进行改版，并优化网站细节。"
+                    }, {
+                        "date": "2015-04-06",
+                        "text": "v3.0 Beta版本发布：\u003Cbr\u002F\u003E\n对栏目进行改版布局，并添加新功能：百度站内搜索和段亮博客官方微信公众号！"
+                    }, {
+                        "date": "2016-08-14",
+                        "text": "v3.0 版本正式发布：\u003Cbr\u002F\u003E\n对网站整体风格进行改版，并对代码进行重新优化构建。增加网站站内搜索功能！\u003Ca href=\"http:\u002F\u002Fblog.duanliang920.com\u002F \" target=\"_blank\"\u003E点击查看\u003C\u002Fa\u003E  "
+                    }, {
+                        "date": "2018-09-11",
+                        "text": "v4.0 Beta版本发布：\u003Cbr\u002F\u003E\n系统架构重构，新增会员系统、评论功能、支持在线视频观看！\u003Ca href=\"\u002Flearn\u002Fgw\u002F864.html\"\u003E点击查看\u003C\u002Fa\u003E "
+                    }, {
+                        "date": "2018-10-05",
+                        "text": "v4.0 版本正式发布：\u003Cbr\u002F\u003E\n重构UI、视频模块，支持免费视频在线试看，优化视频观看学习体验！\u003Ca href=\"\u002Fvideo?tid=1001&cid=1101\"\u003E点击查看\u003C\u002Fa\u003E "
+                    }, {
+                        "date": "2019-06-29",
+                        "text": "v4.1版本更新：\u003Cbr\u002F\u003E\n支持VIP视频、会员、文章，单独付费购买，完善用户体验！"
+                    }, {
+                        "date": "2019-10-13",
+                        "text": "v4.2版本更新：\u003Cbr\u002F\u003E\n1、支持留言websocket实时回复。\u003Cbr\u002F\u003E\n2、支持系统消息推送。\u003Cbr\u002F\u003E\n3、解决第三方登录bug。"
+                    }],
+                    "dedeList": [{
+                        "aid": "205",
+                        "title": "织梦dede常用的调用标签（个人总结）",
+                        "path": "\u002Flearn\u002Fdede\u002F205.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140419\u002F1-1404191501060-L.jpg",
+                        "description": "想必很多人对后台不熟悉，并且觉得很难。其实不难，只是你们没有找到合适的方法学习而已！只有找到一个合适的学习方法，不管做什么事情，我想都很容易。学习讲究的是效率，而效率又是由思路决定的。就拿网页制作来说：首先，你得先明白 一个网站的开发流程"
+                    }, {
+                        "aid": "265",
+                        "title": "dedecms5.7安装百度(ueditor)编辑器的方法",
+                        "path": "\u002Flearn\u002Fdede\u002F265.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140821\u002F1-140R11552440-L.jpg",
+                        "description": "用过dedecms的朋友都知道dede自带的文本编辑器很不好用，且有些功能还需要我们自己手动去修改源码，才能完成我们想要的效果。现在广大用dedecms的朋友们，你们有福啦！我们可以利用百度的Ueditor编辑器来改变这一状况，让dede的文本编辑功能变得更加的强大。"
+                    }, {
+                        "aid": "280",
+                        "title": "dede文章页如何调用动态浏览量",
+                        "path": "\u002Flearn\u002Fdede\u002F280.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140925\u002F1-1409251623240-L.jpg",
+                        "description": "用过dede（织梦）的朋友都知道，通常我们内容页的“浏览次数都是通过静态调用的，无论怎么去刷新页面，所调用出来的数字都不会改变。 这样很不利于用户体验。那么我们又怎么去解决这一问题，进一步提升我们网站的用户体验呢？在这里段亮提供一个很好的解决办"
+                    }, {
+                        "aid": "256",
+                        "title": "简单三步-实现dede站内搜索功能",
+                        "path": "\u002Flearn\u002Fdede\u002F256.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140728\u002F1-140HQ123310-L.jpg",
+                        "description": "前几天，在帮一个客户在做网站时，因为客户要求网站内要弄一个产品搜索功能。因为才接触dede不久,对于dede也不是很熟悉。在网上查询了一些资料，但觉得网上的资料很杂乱，把一个简单的东西变为复杂化了。下面我就跟大家分享一下： 三步 如何实现dede制作网站"
+                    }, {
+                        "aid": "293",
+                        "title": "dedecms怎么给自定义表单添加验证码功能",
+                        "path": "\u002Flearn\u002Fdede\u002F293.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F141101\u002F1-1411011524000-L.jpg",
+                        "description": "这两天帮朋友使用dede仿站的过程中发现一个问题，因为有个在线咨询模块，需要使用到dede的自定义表单提交数据到后台才能实现。 但官方没有给该模块加入验证码校验功能，可能会导致一些恶意提交。通过在网上查询了相关的资料，才完成了此功能。今天就把这个方"
+                    }, {
+                        "aid": "310",
+                        "title": "简单三步：利用dede自定义表单，实现在线邮件功能",
+                        "path": "\u002Flearn\u002Fdede\u002F310.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F150506\u002F1-1505062129530-L.jpg",
+                        "description": "这两天刚好帮客户做网站，因为客户有这样一个需求：那就是通过网站点击在线预约系统，想预约的信息，直接发送到他的邮箱。 而不是网站后台。刚好后台是用的DEDECMS，于是想到了利用自定义表单来做。 下面我就来分享下：如果利用DEDECMS自定义表单，来 实现我"
+                    }, {
+                        "aid": "340",
+                        "title": "dedecms Ajax异步获取文章列表",
+                        "path": "\u002Flearn\u002Fdede\u002F340.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F151213\u002F1-1512131520170-L.jpg",
+                        "description": "最近趁着自己有点时间,就把自己博客的个人日记模块改进了下。 可能大家都知道:以前个人日记这个模块, 都是通过普遍的文章列表加+分页的形式来进行展示的。可效果却又采用了CSS3+时光轴的效果来制作的,总感觉有点不搭配。 很早前就想通过ajax异步去从数据库拿"
+                    }],
+                    "clickList": [{"aid": "232", "title": "如何建立个人博客？", "path": "\u002Flearn232.html"}, {
+                        "aid": "136",
+                        "title": "一个网站的开发流程",
+                        "path": "\u002Flearn136.html"
+                    }, {
+                        "aid": "230",
+                        "title": "浅谈：html5和html的区别",
+                        "path": "\u002Flearn\u002Fweb\u002Fhtml5\u002F230.html?isVip=1"
+                    }, {
+                        "aid": "355",
+                        "title": "前端MVVM框架之“Vue.js组件篇”",
+                        "path": "\u002Flearn\u002Fweb\u002F355.html?isVip=1"
+                    }, {
+                        "aid": "208",
+                        "title": "如何才能写好一篇软文？",
+                        "path": "\u002Flearn\u002FSEO\u002Fjj\u002F208.html?isVip=1"
+                    }, {
+                        "aid": "205",
+                        "title": "织梦dede常用的调用标签（个人总结）",
+                        "path": "\u002Flearn\u002Fdede\u002F205.html?isVip=1"
+                    }],
+                    "discuzList": [{
+                        "aid": "136",
+                        "title": "一个网站的开发流程",
+                        "path": "\u002Flearn136.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140307\u002F1-14030H14R70-L.jpg",
+                        "description": "今天就由段亮简单的跟大家分享下，一个网站的正常项目开发流程。可能很多人都觉得做网站难，其实并不难，只要你弄明白了一个网站的开发流程，你就会明白，原来做一个网站是如此的简单。如果说连你大脑都没有一个清晰的流程，那么制作网站肯定比较困难。 第一"
+                    }, {
+                        "aid": "308",
+                        "title": "利用百度数据来做SEO优化系列（一）",
+                        "path": "\u002Flearn\u002FSEO\u002Fal\u002F308.html?isVip=1",
+                        "image": "\u002Fuploads\u002Fallimg\u002F150416\u002F1-1504162102340-L.jpg",
+                        "description": "最近在很多站长群、SEO相关的群里聊天，普遍发现一个问题：“ 哎，现在感觉做SEO优化很难啊！，好像外链不起什么作用了，每天更新原创文章，排名也不起来。 ” 我只能说一句：现在不是以前的“内容为王，外链为皇”的时代了。如果你还停留在以前（古代思维）"
+                    }, {
+                        "aid": "187",
+                        "title": "为什么新站前期排名老是浮动？",
+                        "path": "\u002Flearn\u002FSEO\u002Fwt\u002F187.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140309\u002F1-14030Z024070-L.jpg",
+                        "description": "很多SEO新人提问同样的问题：为什么我的网站做了1个月（甚至更短），有了排名，最近几天掉了，怎么办？ 新站关键词浮动 首先，新站关键词浮动是一个常态。 不管是我自己做的站，还是在论坛帮助新手解答分析的网站。我发现，50%以上的新站在前期会出现关键词"
+                    }, {
+                        "aid": "271",
+                        "title": "关于网站空间服务器的选择",
+                        "path": "\u002Flearn271.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140902\u002F1-140Z21522250-L.jpg",
+                        "description": "如果对网站空间服务有一点点了解的朋友，我们都知道网站空间服务器，可以简单的分为三类，一类是： 虚拟空间 ，一类是： 云主机 、一类是： VPS 。那么他们之间的区别在哪里呢？以及在选购的时候我们又要需注意什么呢？那么 今天由笔者给大家浅析下：云主机"
+                    }, {
+                        "aid": "155",
+                        "title": "什么是404错误页面？",
+                        "path": "\u002Flearn\u002FSEO\u002Fwt\u002F155.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140306\u002F1-140306201I80-L.jpg",
+                        "description": "什么是404错误页面： 告诉浏览者其所请求的页面不存在或链接错误，同时引导用户使用网站其他页面而不是关闭窗口离开。 产生404错误页面原因： 1.网页URL生成规则改变。 2.网页文件更名或移动位置。 3.导入链接拼写错误。 注：以上3个为常见原因，从而导致原"
+                    }, {
+                        "aid": "168",
+                        "title": "新手须知：域名该如何选择",
+                        "path": "\u002Flearn\u002FSEO\u002Fyh\u002F168.html",
+                        "image": "\u002Fuploads\u002Fallimg\u002F140304\u002F1-1403042131570-L.jpg",
+                        "description": "建立网站之前，域名的选取是必不可少的，网站的域名和人的名字是一样的，一旦确定了就不能再次更改了。因此我们一定要选择好域名，那么究竟应该如何选择域名呢？《百度搜索引擎优化指南》中提到：域名是用户对网站的第一印象，能否让用户迅速记住域名对网站发"
+                    }, {
+                        "aid": "154",
+                        "title": "什么是网站权重",
+                        "path": "\u002Flearn\u002FSEO\u002Fwt\u002F154.html",
+                        "image": "\u002Fuploads\u002F140311\u002F1-1403111559422c.jpg",
+                        "description": "网站权重：是指搜索引擎给网站（包括网页）赋予一定的权威值，对网站（包括网页）权威的评估评价（也就是网站与网站在搜索引擎眼中的分级制待遇的不同表现，还有一个想法就是综合搜索引擎算法中所有有利因素所带来的数值效果被搜索引擎所认可）。一个网站权重"
+                    }],
+                    "links": [{"name": "艺小昔个人博客", "url": "http:\u002F\u002Fwww.yixiaoxi.com\u002F"}]
+                },
+                "articleList": {"list": [], "category": {}, "page": {}},
+                "videoData": {"list": [], "category": {}, "page": {}},
+                "isArticleDetailData": 1,
+                "videoReadRole": 1,
+                "videoReadPrice": 0,
+                "articleDetail": {"prev": "", "next": "", "recommendList": [], "pageReadRole": 1},
+                "guestBoook": {"hotList": [], "list": [], "category": {}, "page": {}}
+            }
+        };
+        (function () {
+            var s;
+            (s = document.currentScript || document.scripts[document.scripts.length - 1]).parentNode.removeChild(s);
+        }());</script>
+    <script crossorigin="anonymous" src="static/js/manifest.b040db9c.js" defer="defer"></script>
+    <script crossorigin="anonymous" src="static/js/index.d4cd5375.js" defer="defer"></script>
+    <script crossorigin="anonymous" src="static/js/vendor.b040db9c.js" defer="defer"></script>
+    <script crossorigin="anonymous" src="static/js/app.b040db9c.js" defer="defer"></script>
+</div>
+</body>
+</html>
